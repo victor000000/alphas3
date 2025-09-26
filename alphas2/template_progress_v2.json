@@ -1,12 +1,12 @@
 {
-  "timestamp": 1758875874.516232,
+  "timestamp": 1758877105.24271,
   "total_regions": 1,
   "completed_regions": 0,
   "total_templates": 0,
   "completed_templates": 0,
   "total_simulations": 0,
-  "completed_simulations": 237,
-  "successful_simulations": 237,
+  "completed_simulations": 241,
+  "successful_simulations": 241,
   "failed_simulations": 0,
   "current_region": "",
   "current_phase": "",
@@ -3189,6 +3189,59 @@
           "equal",
           "not_equal",
           "ts_decay_linear"
+        ],
+        "fields_used": []
+      },
+      {
+        "region": "USA",
+        "template": "rank(divide(zscore(news_mins_5_pct_up), sqrt(add(news_max_up_ret, 1))))",
+        "operators_used": [
+          "add",
+          "min",
+          "max",
+          "sqrt",
+          "divide",
+          "or",
+          "zscore",
+          "rank"
+        ],
+        "fields_used": []
+      },
+      {
+        "region": "USA",
+        "template": "signed_power(news_max_dn_ret, 2)",
+        "operators_used": [
+          "signed_power",
+          "sign",
+          "power",
+          "max"
+        ],
+        "fields_used": []
+      },
+      {
+        "region": "USA",
+        "template": "rank(inverse(group_zscore(eps, bucket(quantile(news_mins_5_pct_up, driver=gaussian), range=\"0,1,0.1\"))))",
+        "operators_used": [
+          "min",
+          "inverse",
+          "or",
+          "quantile",
+          "zscore",
+          "rank",
+          "bucket",
+          "group_zscore"
+        ],
+        "fields_used": []
+      },
+      {
+        "region": "USA",
+        "template": "quantile(winsorize(days_from_last_change(news_mins_5_pct_up), std=4), driver=gaussian, sigma=1.0)",
+        "operators_used": [
+          "min",
+          "or",
+          "days_from_last_change",
+          "quantile",
+          "winsorize"
         ],
         "fields_used": []
       }
@@ -6750,6 +6803,66 @@
         "success": true,
         "error_message": "",
         "timestamp": 1758875351.436734
+      },
+      {
+        "template": "rank(divide(zscore(news_mins_5_pct_up), sqrt(add(news_max_up_ret, 1))))",
+        "region": "USA",
+        "sharpe": 0.35,
+        "fitness": 0.12,
+        "turnover": 1.6665,
+        "returns": 0.1941,
+        "drawdown": 1.278,
+        "margin": 0.000233,
+        "longCount": 6,
+        "shortCount": 6,
+        "success": true,
+        "error_message": "",
+        "timestamp": 1758876035.962611
+      },
+      {
+        "template": "signed_power(news_max_dn_ret, 2)",
+        "region": "USA",
+        "sharpe": -0.58,
+        "fitness": -0.2,
+        "turnover": 1.657,
+        "returns": -0.1893,
+        "drawdown": 1.0488,
+        "margin": -0.000229,
+        "longCount": 103,
+        "shortCount": 257,
+        "success": true,
+        "error_message": "",
+        "timestamp": 1758876580.50717
+      },
+      {
+        "template": "rank(inverse(group_zscore(eps, bucket(quantile(news_mins_5_pct_up, driver=gaussian), range=\"0,1,0.1\"))))",
+        "region": "USA",
+        "sharpe": 0.41,
+        "fitness": 0.17,
+        "turnover": 1.3431,
+        "returns": 0.2268,
+        "drawdown": 1.1264,
+        "margin": 0.000338,
+        "longCount": 4,
+        "shortCount": 4,
+        "success": true,
+        "error_message": "",
+        "timestamp": 1758876610.336757
+      },
+      {
+        "template": "quantile(winsorize(days_from_last_change(news_mins_5_pct_up), std=4), driver=gaussian, sigma=1.0)",
+        "region": "USA",
+        "sharpe": 0.45,
+        "fitness": 0.3,
+        "turnover": 0.1017,
+        "returns": 0.0563,
+        "drawdown": 0.318,
+        "margin": 0.001107,
+        "longCount": 538,
+        "shortCount": 486,
+        "success": true,
+        "error_message": "",
+        "timestamp": 1758876927.940644
       }
     ]
   }
