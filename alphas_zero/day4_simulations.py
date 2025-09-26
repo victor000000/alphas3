@@ -225,7 +225,7 @@ with open(expanduser("brain_credentials.txt")) as f:
     credentials = json.load(f)
 # Extract username and password from the list
 username, password = credentials
-max_concurrent = 1
+max_concurrent = 2
 batch_number = 10
 
 simulator = AlphaSimulator(max_concurrent, username, password, alpha_list_file_path, batch_number)
