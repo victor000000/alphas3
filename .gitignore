@@ -1,5 +1,5 @@
 # Python
-*/__pycache__/*
+__pycache__/
 *.pyc
 *.pyo
 *.pyd
@@ -17,9 +17,9 @@ credentials.json
 credential.json
 
 # Batch and cache files
-*batch_*.html
+batch_*.html
 data_fields_cache_*.json
 *v2.json
 
 # Virtual environments
-**/venv
+venv/
