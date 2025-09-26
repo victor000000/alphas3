@@ -1,0 +1,1333 @@
+🚀 Starting Enhanced Template Generator v2 with Continuous Multi-Arm Bandit...
+🔄 This will run indefinitely using explore/exploit strategy
+💡 Use Ctrl+C to stop gracefully
+================================================================================
+📁 Found existing progress file: template_progress_v2.json
+Do you want to resume from previous progress? (y/n): ❌ Error: [Errno 9] Bad file descriptor
+🚀 Starting Enhanced Template Generator v2 with Continuous Multi-Arm Bandit...
+🔄 This will run indefinitely using explore/exploit strategy
+💡 Use Ctrl+C to stop gracefully
+================================================================================
+📁 Found existing progress file: template_progress_v2.json
+Do you want to resume from previous progress? (y/n): ❌ Error: [Errno 9] Bad file descriptor
+🚀 Starting Enhanced Template Generator v2 with Continuous Multi-Arm Bandit...
+🔄 This will run indefinitely using explore/exploit strategy
+💡 Use Ctrl+C to stop gracefully
+================================================================================
+✅ Resume mode enabled via command line
+2025-09-26 17:48:40,534 - INFO - Authentication successful
+2025-09-26 17:48:40,534 - INFO - Loaded 65 operators
+2025-09-26 17:48:40,536 - INFO - Progress loaded from template_progress_v2.json
+2025-09-26 17:48:40,536 - INFO - 📊 Loaded 249 total simulations, 249 successful
+🎯 Single region mode: Testing only USA
+📊 Configuration:
+   Regions: USA
+   Templates per region: 20
+   Max concurrent simulations: 2
+   Resume mode: Yes
+
+🎯 Starting Template Generation and Multi-Simulation...
+📈 Progress will be displayed dynamically below:
+
+2025-09-26 17:48:40,538 - INFO - Progress loaded from template_progress_v2.json
+2025-09-26 17:48:40,538 - INFO - 📊 Loaded 249 total simulations, 249 successful
+2025-09-26 17:48:40,538 - INFO - Resuming from previous progress...
+2025-09-26 17:48:40,538 - INFO - 🚀 Starting TRUE CONCURRENT template generation with subprocess execution...
+2025-09-26 17:48:40,538 - INFO - 💡 Use Ctrl+C to stop gracefully
+2025-09-26 17:48:40,538 - INFO - 🎯 Target: Maintain 2 concurrent simulations for maximum efficiency
+2025-09-26 17:48:40,538 - INFO - 🎯 Smart Plan: ['explore', 'exploit', 'explore', 'exploit', 'explore', 'exploit', 'explore', 'exploit']
+2025-09-26 17:48:40,538 - INFO - 
+🔄 === ITERATION 1 ===
+2025-09-26 17:48:40,538 - INFO - 📊 Active futures: 0/2
+2025-09-26 17:48:40,538 - INFO - 📊 Completed: 0, Successful: 0, Failed: 0
+2025-09-26 17:48:40,538 - INFO - ✅ HEALTH: All 0 futures healthy (<1min)
+2025-09-26 17:48:40,538 - INFO - 📊 ALL FUTURES STATUS: No active futures
+2025-09-26 17:48:40,538 - INFO - 🎯 Filling 2 available slots with CONCURRENT tasks...
+2025-09-26 17:48:40,539 - INFO - 🔍 CONCURRENT EXPLORE: Starting exploration task
+2025-09-26 17:48:40,539 - INFO - 🚀 Started CONCURRENT EXPLORE task: explore_1758880120539
+2025-09-26 17:48:40,539 - INFO - 🔍 CONCURRENT EXPLORE: Selecting region...
+2025-09-26 17:48:40,539 - INFO - 🎯 EXPLOIT mode: Looking for successful templates...
+2025-09-26 17:48:40,539 - INFO - Selected delay 1 for USA (multipliers: 0=1.8, 1=1.2, prob_0=0.60)
+2025-09-26 17:48:40,539 - INFO - 📊 Found 249 successful templates out of 249 total results
+2025-09-26 17:48:40,540 - INFO - 🔍 CONCURRENT EXPLORE: Selected region USA
+2025-09-26 17:48:40,540 - INFO - 🏆 Best successful template: Sharpe=1.340, Region=USA
+2025-09-26 17:48:40,540 - INFO - 🔍 CONCURRENT EXPLORE: Selecting delay...
+2025-09-26 17:48:40,540 - WARNING - 🎯 EXPLOIT: No elite templates found, falling back to EXPLORE mode
+2025-09-26 17:48:40,540 - INFO - Selected delay 1 for USA (multipliers: 0=1.8, 1=1.2, prob_0=0.60)
+2025-09-26 17:48:40,540 - INFO - 📊 Available templates: 249
+2025-09-26 17:48:40,540 - INFO - 🔍 CONCURRENT EXPLORE: Selected delay 1
+2025-09-26 17:48:40,541 - INFO -    Template 1: Sharpe=-0.700, Fitness=-0.100, Margin=-0.000
+2025-09-26 17:48:40,541 - INFO - 🔍 CONCURRENT EXPLORE: Generating templates for USA...
+2025-09-26 17:48:40,541 - INFO -    Template 2: Sharpe=0.740, Fitness=0.300, Margin=0.000
+2025-09-26 17:48:40,541 - INFO - 🔄 Template generation attempt 1/5 for USA
+2025-09-26 17:48:40,541 - INFO -    Template 3: Sharpe=-0.240, Fitness=-0.040, Margin=-0.000
+2025-09-26 17:48:40,541 - INFO - Generating 1 templates for region: USA
+2025-09-26 17:48:40,541 - INFO - 🔄 FALLBACK: Switching to EXPLORE mode due to no elite templates
+2025-09-26 17:48:40,541 - INFO - Selected delay 0 for USA (multipliers: 0=1.8, 1=1.2, prob_0=0.60)
+2025-09-26 17:48:40,542 - INFO - Loading cached data fields for USA delay=0
+2025-09-26 17:48:40,542 - INFO - 🔍 CONCURRENT EXPLORE: Starting exploration task
+2025-09-26 17:48:40,543 - INFO - Loaded 214 cached fields for USA delay=0
+2025-09-26 17:48:40,543 - INFO - 🔍 CONCURRENT EXPLORE: Selecting region...
+2025-09-26 17:48:40,543 - INFO - 🚀 Started CONCURRENT EXPLORE task: explore_1758880120543
+2025-09-26 17:48:40,543 - INFO - Selected delay 0 for USA (multipliers: 0=1.8, 1=1.2, prob_0=0.60)
+2025-09-26 17:48:40,544 - INFO - Available fields for USA (delay=0): 214 fields
+2025-09-26 17:48:40,544 - INFO - Sample fields: ['anl4_adxqf_down', 'anl4_adxqf_high', 'anl4_adxqf_low', 'anl4_adxqf_mean', 'anl4_adxqf_median']
+2025-09-26 17:48:40,545 - INFO - LIMITED operators: Selected 5 operators (max: 5) for template generation
+2025-09-26 17:48:40,544 - INFO - 🔍 CONCURRENT EXPLORE: Selected region USA
+2025-09-26 17:48:40,548 - INFO - 🔍 CONCURRENT EXPLORE: Selecting delay...
+2025-09-26 17:48:40,548 - INFO - Selected delay 0 for USA (multipliers: 0=1.8, 1=1.2, prob_0=0.60)
+2025-09-26 17:48:40,548 - INFO - 🔍 CONCURRENT EXPLORE: Selected delay 0
+2025-09-26 17:48:40,548 - INFO - 🔍 CONCURRENT EXPLORE: Generating templates for USA...
+2025-09-26 17:48:40,548 - INFO - 🔄 Template generation attempt 1/5 for USA
+2025-09-26 17:48:40,548 - INFO - Generating 1 templates for region: USA
+2025-09-26 17:48:40,548 - INFO - Selected delay 1 for USA (multipliers: 0=1.8, 1=1.2, prob_0=0.60)
+2025-09-26 17:48:40,545 - INFO - Using 214 fields for template generation
+2025-09-26 17:48:40,548 - INFO - Loading cached data fields for USA delay=1
+2025-09-26 17:48:40,552 - INFO - Loaded 274 cached fields for USA delay=1
+2025-09-26 17:48:40,552 - INFO - Available fields for USA (delay=1): 274 fields
+2025-09-26 17:48:40,552 - INFO - Sample fields: ['fscore_growth', 'fscore_momentum', 'fscore_profitability', 'fscore_quality', 'fscore_surface']
+2025-09-26 17:48:40,553 - INFO - UNLIMITED operators: Using ALL 65 operators for template generation
+2025-09-26 17:48:40,553 - INFO - Using 274 fields for template generation
+2025-09-26 17:48:40,555 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:48:40,565 - INFO - Selected model for Hunyuan API: hunyuan-t1-latest
+2025-09-26 17:48:40,565 - INFO - Selected model for Hunyuan API: hunyuan-t1-latest
+2025-09-26 17:48:40,565 - INFO - Hunyuan API call attempt 1/3
+2025-09-26 17:48:40,566 - INFO - Hunyuan API call attempt 1/3
+2025-09-26 17:48:42,556 - INFO - 
+🔄 === ITERATION 2 ===
+2025-09-26 17:48:42,556 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:48:42,556 - INFO - 📊 Completed: 0, Successful: 0, Failed: 0
+2025-09-26 17:48:42,556 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:48:42,556 - INFO - ✅ HEALTH: All 2 futures healthy (<1min)
+2025-09-26 17:48:42,556 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:48:42,556 - INFO -   - explore_1758880120539: 2.0s (healthy, running, EXPLORE)
+2025-09-26 17:48:42,556 - INFO -   - explore_1758880120543: 2.0s (healthy, running, EXPLORE)
+2025-09-26 17:48:42,563 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:48:44,563 - INFO - 
+🔄 === ITERATION 3 ===
+2025-09-26 17:48:44,563 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:48:44,563 - INFO - 📊 Completed: 0, Successful: 0, Failed: 0
+2025-09-26 17:48:44,563 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:48:44,563 - INFO - ✅ HEALTH: All 2 futures healthy (<1min)
+2025-09-26 17:48:44,563 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:48:44,563 - INFO -   - explore_1758880120539: 4.0s (healthy, running, EXPLORE)
+2025-09-26 17:48:44,563 - INFO -   - explore_1758880120543: 4.0s (healthy, running, EXPLORE)
+2025-09-26 17:48:44,570 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:48:46,570 - INFO - 
+🔄 === ITERATION 4 ===
+2025-09-26 17:48:46,570 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:48:46,570 - INFO - 📊 Completed: 0, Successful: 0, Failed: 0
+2025-09-26 17:48:46,570 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:48:46,570 - INFO - ✅ HEALTH: All 2 futures healthy (<1min)
+2025-09-26 17:48:46,571 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:48:46,571 - INFO -   - explore_1758880120539: 6.0s (healthy, running, EXPLORE)
+2025-09-26 17:48:46,571 - INFO -   - explore_1758880120543: 6.0s (healthy, running, EXPLORE)
+2025-09-26 17:48:46,577 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:48:48,577 - INFO - 
+🔄 === ITERATION 5 ===
+2025-09-26 17:48:48,577 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:48:48,577 - INFO - 📊 Completed: 0, Successful: 0, Failed: 0
+2025-09-26 17:48:48,578 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:48:48,578 - INFO - ✅ HEALTH: All 2 futures healthy (<1min)
+2025-09-26 17:48:48,578 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:48:48,578 - INFO -   - explore_1758880120539: 8.0s (healthy, running, EXPLORE)
+2025-09-26 17:48:48,578 - INFO -   - explore_1758880120543: 8.0s (healthy, running, EXPLORE)
+2025-09-26 17:48:48,584 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:48:50,584 - INFO - 
+🔄 === ITERATION 6 ===
+2025-09-26 17:48:50,585 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:48:50,585 - INFO - 📊 Completed: 0, Successful: 0, Failed: 0
+2025-09-26 17:48:50,585 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:48:50,585 - INFO - ✅ HEALTH: All 2 futures healthy (<1min)
+2025-09-26 17:48:50,585 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:48:50,585 - INFO -   - explore_1758880120539: 10.0s (healthy, running, EXPLORE)
+2025-09-26 17:48:50,585 - INFO -   - explore_1758880120543: 10.0s (healthy, running, EXPLORE)
+2025-09-26 17:48:50,591 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:48:52,592 - INFO - 
+🔄 === ITERATION 7 ===
+2025-09-26 17:48:52,592 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:48:52,592 - INFO - 📊 Completed: 0, Successful: 0, Failed: 0
+2025-09-26 17:48:52,592 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:48:52,592 - INFO - ✅ HEALTH: All 2 futures healthy (<1min)
+2025-09-26 17:48:52,592 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:48:52,592 - INFO -   - explore_1758880120539: 12.1s (healthy, running, EXPLORE)
+2025-09-26 17:48:52,592 - INFO -   - explore_1758880120543: 12.0s (healthy, running, EXPLORE)
+2025-09-26 17:48:52,599 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:48:54,599 - INFO - 
+🔄 === ITERATION 8 ===
+2025-09-26 17:48:54,599 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:48:54,599 - INFO - 📊 Completed: 0, Successful: 0, Failed: 0
+2025-09-26 17:48:54,599 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:48:54,599 - INFO - ✅ HEALTH: All 2 futures healthy (<1min)
+2025-09-26 17:48:54,599 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:48:54,599 - INFO -   - explore_1758880120539: 14.1s (healthy, running, EXPLORE)
+2025-09-26 17:48:54,599 - INFO -   - explore_1758880120543: 14.1s (healthy, running, EXPLORE)
+2025-09-26 17:48:54,606 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:48:56,606 - INFO - 
+🔄 === ITERATION 9 ===
+2025-09-26 17:48:56,606 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:48:56,606 - INFO - 📊 Completed: 0, Successful: 0, Failed: 0
+2025-09-26 17:48:56,606 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:48:56,606 - INFO - ✅ HEALTH: All 2 futures healthy (<1min)
+2025-09-26 17:48:56,606 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:48:56,606 - INFO -   - explore_1758880120539: 16.1s (healthy, running, EXPLORE)
+2025-09-26 17:48:56,606 - INFO -   - explore_1758880120543: 16.1s (healthy, running, EXPLORE)
+2025-09-26 17:48:56,613 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:48:58,613 - INFO - 
+🔄 === ITERATION 10 ===
+2025-09-26 17:48:58,613 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:48:58,613 - INFO - 📊 Completed: 0, Successful: 0, Failed: 0
+2025-09-26 17:48:58,613 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:48:58,613 - INFO - ✅ HEALTH: All 2 futures healthy (<1min)
+2025-09-26 17:48:58,613 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:48:58,613 - INFO -   - explore_1758880120539: 18.1s (healthy, running, EXPLORE)
+2025-09-26 17:48:58,614 - INFO -   - explore_1758880120543: 18.1s (healthy, running, EXPLORE)
+2025-09-26 17:48:58,620 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:49:00,620 - INFO - 
+🔄 === ITERATION 11 ===
+2025-09-26 17:49:00,620 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:49:00,621 - INFO - 📊 Completed: 0, Successful: 0, Failed: 0
+2025-09-26 17:49:00,621 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:49:00,621 - INFO - ✅ HEALTH: All 2 futures healthy (<1min)
+2025-09-26 17:49:00,621 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:49:00,621 - INFO -   - explore_1758880120539: 20.1s (healthy, running, EXPLORE)
+2025-09-26 17:49:00,621 - INFO -   - explore_1758880120543: 20.1s (healthy, running, EXPLORE)
+2025-09-26 17:49:00,627 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:49:02,627 - INFO - 
+🔄 === ITERATION 12 ===
+2025-09-26 17:49:02,628 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:49:02,628 - INFO - 📊 Completed: 0, Successful: 0, Failed: 0
+2025-09-26 17:49:02,628 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:49:02,628 - INFO - ✅ HEALTH: All 2 futures healthy (<1min)
+2025-09-26 17:49:02,628 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:49:02,628 - INFO -   - explore_1758880120539: 22.1s (healthy, running, EXPLORE)
+2025-09-26 17:49:02,628 - INFO -   - explore_1758880120543: 22.1s (healthy, running, EXPLORE)
+2025-09-26 17:49:02,634 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:49:04,635 - INFO - 
+🔄 === ITERATION 13 ===
+2025-09-26 17:49:04,635 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:49:04,635 - INFO - 📊 Completed: 0, Successful: 0, Failed: 0
+2025-09-26 17:49:04,635 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:49:04,635 - INFO - ✅ HEALTH: All 2 futures healthy (<1min)
+2025-09-26 17:49:04,635 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:49:04,635 - INFO -   - explore_1758880120539: 24.1s (healthy, running, EXPLORE)
+2025-09-26 17:49:04,635 - INFO -   - explore_1758880120543: 24.1s (healthy, running, EXPLORE)
+2025-09-26 17:49:04,642 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:49:06,642 - INFO - 
+🔄 === ITERATION 14 ===
+2025-09-26 17:49:06,642 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:49:06,642 - INFO - 📊 Completed: 0, Successful: 0, Failed: 0
+2025-09-26 17:49:06,642 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:49:06,642 - INFO - ✅ HEALTH: All 2 futures healthy (<1min)
+2025-09-26 17:49:06,642 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:49:06,642 - INFO -   - explore_1758880120539: 26.1s (healthy, running, EXPLORE)
+2025-09-26 17:49:06,642 - INFO -   - explore_1758880120543: 26.1s (healthy, running, EXPLORE)
+2025-09-26 17:49:06,649 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:49:08,649 - INFO - 
+🔄 === ITERATION 15 ===
+2025-09-26 17:49:08,649 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:49:08,649 - INFO - 📊 Completed: 0, Successful: 0, Failed: 0
+2025-09-26 17:49:08,650 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:49:08,650 - INFO - ✅ HEALTH: All 2 futures healthy (<1min)
+2025-09-26 17:49:08,650 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:49:08,650 - INFO -   - explore_1758880120539: 28.1s (healthy, running, EXPLORE)
+2025-09-26 17:49:08,650 - INFO -   - explore_1758880120543: 28.1s (healthy, running, EXPLORE)
+2025-09-26 17:49:08,656 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:49:10,656 - INFO - 
+🔄 === ITERATION 16 ===
+2025-09-26 17:49:10,657 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:49:10,657 - INFO - 📊 Completed: 0, Successful: 0, Failed: 0
+2025-09-26 17:49:10,657 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:49:10,657 - INFO - ✅ HEALTH: All 2 futures healthy (<1min)
+2025-09-26 17:49:10,657 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:49:10,657 - INFO -   - explore_1758880120539: 30.1s (healthy, running, EXPLORE)
+2025-09-26 17:49:10,657 - INFO -   - explore_1758880120543: 30.1s (healthy, running, EXPLORE)
+2025-09-26 17:49:10,664 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:49:12,664 - INFO - 
+🔄 === ITERATION 17 ===
+2025-09-26 17:49:12,664 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:49:12,664 - INFO - 📊 Completed: 0, Successful: 0, Failed: 0
+2025-09-26 17:49:12,664 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:49:12,664 - INFO - ✅ HEALTH: All 2 futures healthy (<1min)
+2025-09-26 17:49:12,664 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:49:12,664 - INFO -   - explore_1758880120539: 32.1s (healthy, running, EXPLORE)
+2025-09-26 17:49:12,664 - INFO -   - explore_1758880120543: 32.1s (healthy, running, EXPLORE)
+2025-09-26 17:49:12,671 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:49:13,036 - INFO - Hunyuan API call successful
+2025-09-26 17:49:13,038 - INFO - Valid template: trade_when(greater(days_from_last_change(news_ls),... (fields: ['rp_css_credit', 'rp_css_credit_ratings', 'rp_css_price', 'rp_css_revenue', 'cash', 'cashflow', 'cashflow_op', 'enterprise_value', 'news_ls'])
+2025-09-26 17:49:13,038 - INFO - Generated 1 valid templates for region USA
+2025-09-26 17:49:13,038 - INFO - ✅ Successfully generated 1 templates for USA on attempt 1
+2025-09-26 17:49:13,038 - INFO - 🔍 CONCURRENT EXPLORE: Generated template, starting simulation...
+2025-09-26 17:49:13,038 - INFO - 🔍 EXPLORING new template: trade_when(greater(days_from_last_change(news_ls),...
+2025-09-26 17:49:13,038 - INFO - 🔍 CONCURRENT EXPLORE: Calling _simulate_template_concurrent...
+2025-09-26 17:49:13,038 - INFO - 🎮 CONCURRENT SIMULATION: Starting simulation for region USA
+2025-09-26 17:49:13,038 - INFO - 🎮 CONCURRENT SIMULATION: Using neutralization INDUSTRY
+2025-09-26 17:49:13,038 - INFO - 🎮 CONCURRENT SIMULATION: Submitting simulation to API...
+2025-09-26 17:49:14,671 - INFO - 
+🔄 === ITERATION 18 ===
+2025-09-26 17:49:14,671 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:49:14,671 - INFO - 📊 Completed: 0, Successful: 0, Failed: 0
+2025-09-26 17:49:14,672 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:49:14,672 - INFO - ✅ HEALTH: All 2 futures healthy (<1min)
+2025-09-26 17:49:14,672 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:49:14,672 - INFO -   - explore_1758880120539: 34.1s (healthy, running, EXPLORE)
+2025-09-26 17:49:14,672 - INFO -   - explore_1758880120543: 34.1s (healthy, running, EXPLORE)
+2025-09-26 17:49:14,678 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:49:14,928 - INFO - 🎮 CONCURRENT SIMULATION: API response status: 201
+2025-09-26 17:49:14,928 - INFO - 🎮 CONCURRENT SIMULATION: Got progress URL: https://api.worldquantbrain.com/simulations/5qVhL5s84Z2aWDAxYq1Pg5
+2025-09-26 17:49:14,928 - INFO - 🎮 CONCURRENT SIMULATION: Starting to monitor simulation progress...
+2025-09-26 17:49:14,928 - INFO - 🎮 MONITORING: Starting to monitor simulation progress (max 3600s)
+2025-09-26 17:49:14,928 - INFO - 🎮 MONITORING: Check #1 (elapsed: 0.0s)
+2025-09-26 17:49:16,246 - INFO - 🎮 MONITORING: Status check response: 200
+2025-09-26 17:49:16,247 - INFO - 🎮 MONITORING: Simulation status: ERROR
+2025-09-26 17:49:16,247 - INFO - 📚 Recorded failure for USA: trade_when(greater(days_from_last_change(news_ls),... - Attempted to use unknown variable "rp_css_price"
+2025-09-26 17:49:16,247 - INFO - 🎮 CONCURRENT SIMULATION: Monitoring completed, result: True
+2025-09-26 17:49:16,247 - INFO - 🔍 CONCURRENT EXPLORE: Simulation completed, result: True
+2025-09-26 17:49:16,679 - INFO - 
+🔄 === ITERATION 19 ===
+2025-09-26 17:49:16,679 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:49:16,679 - INFO - 📊 Completed: 0, Successful: 0, Failed: 0
+2025-09-26 17:49:16,679 - INFO - ❌ CONCURRENT simulation FAILED: trade_when(greater(days_from_last_change(news_ls),... - Attempted to use unknown variable "rp_css_price"
+2025-09-26 17:49:16,679 - INFO - 📊 HEALTH: 1 futures active, 1 completed this cycle
+2025-09-26 17:49:16,679 - INFO - ✅ HEALTH: All 1 futures healthy (<1min)
+2025-09-26 17:49:16,679 - INFO - 📊 ALL FUTURES STATUS: 1 futures active
+2025-09-26 17:49:16,679 - INFO -   - explore_1758880120539: 36.1s (healthy, running, EXPLORE)
+2025-09-26 17:49:16,679 - INFO - 🎯 Filling 1 available slots with CONCURRENT tasks...
+2025-09-26 17:49:16,679 - INFO - 🚀 Started CONCURRENT EXPLORE task: explore_1758880156679
+2025-09-26 17:49:16,679 - INFO - 🔍 CONCURRENT EXPLORE: Starting exploration task
+2025-09-26 17:49:16,680 - INFO - 🔍 CONCURRENT EXPLORE: Selecting region...
+2025-09-26 17:49:16,680 - INFO - Selected delay 1 for USA (multipliers: 0=1.8, 1=1.2, prob_0=0.60)
+2025-09-26 17:49:16,680 - INFO - 🔍 CONCURRENT EXPLORE: Selected region USA
+2025-09-26 17:49:16,680 - INFO - 🔍 CONCURRENT EXPLORE: Selecting delay...
+2025-09-26 17:49:16,680 - INFO - Selected delay 1 for USA (multipliers: 0=1.8, 1=1.2, prob_0=0.60)
+2025-09-26 17:49:16,680 - INFO - 🔍 CONCURRENT EXPLORE: Selected delay 1
+2025-09-26 17:49:16,680 - INFO - 🔍 CONCURRENT EXPLORE: Generating templates for USA...
+2025-09-26 17:49:16,680 - INFO - 🔄 Template generation attempt 1/5 for USA
+2025-09-26 17:49:16,680 - INFO - Generating 1 templates for region: USA
+2025-09-26 17:49:16,680 - INFO - Selected delay 0 for USA (multipliers: 0=1.8, 1=1.2, prob_0=0.60)
+2025-09-26 17:49:16,680 - INFO - Loading cached data fields for USA delay=0
+2025-09-26 17:49:16,681 - INFO - Loaded 214 cached fields for USA delay=0
+2025-09-26 17:49:16,681 - INFO - Available fields for USA (delay=0): 214 fields
+2025-09-26 17:49:16,681 - INFO - Sample fields: ['anl4_adxqf_down', 'anl4_adxqf_high', 'anl4_adxqf_low', 'anl4_adxqf_mean', 'anl4_adxqf_median']
+2025-09-26 17:49:16,681 - INFO - UNLIMITED operators: Using ALL 65 operators for template generation
+2025-09-26 17:49:16,681 - INFO - Using 214 fields for template generation
+2025-09-26 17:49:16,681 - INFO - Selected model for Qianwen API: qwen-plus-latest
+2025-09-26 17:49:16,682 - INFO - Qianwen API call attempt 1/3
+2025-09-26 17:49:16,691 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:49:18,691 - INFO - 
+🔄 === ITERATION 20 ===
+2025-09-26 17:49:18,691 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:49:18,691 - INFO - 📊 Completed: 1, Successful: 0, Failed: 1
+2025-09-26 17:49:18,691 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:49:18,691 - INFO - ✅ HEALTH: All 2 futures healthy (<1min)
+2025-09-26 17:49:18,691 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:49:18,691 - INFO -   - explore_1758880120539: 38.2s (healthy, running, EXPLORE)
+2025-09-26 17:49:18,691 - INFO -   - explore_1758880156679: 2.0s (healthy, running, EXPLORE)
+2025-09-26 17:49:18,699 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:49:20,700 - INFO - 
+🔄 === ITERATION 21 ===
+2025-09-26 17:49:20,700 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:49:20,700 - INFO - 📊 Completed: 1, Successful: 0, Failed: 1
+2025-09-26 17:49:20,700 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:49:20,700 - INFO - ✅ HEALTH: All 2 futures healthy (<1min)
+2025-09-26 17:49:20,700 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:49:20,700 - INFO -   - explore_1758880120539: 40.2s (healthy, running, EXPLORE)
+2025-09-26 17:49:20,700 - INFO -   - explore_1758880156679: 4.0s (healthy, running, EXPLORE)
+2025-09-26 17:49:20,708 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:49:21,968 - INFO - Qianwen API call successful
+2025-09-26 17:49:21,969 - WARNING - Invalid template rejected: normalize(multiply(add(ts_zscore(subtract(anl4_ady... - Unbalanced parentheses
+2025-09-26 17:49:21,969 - INFO - Generated 0 valid templates for region USA
+2025-09-26 17:49:21,969 - WARNING - ❌ Template generation failed for USA on attempt 1
+2025-09-26 17:49:21,969 - INFO - 📚 Recorded failure for USA: Template generation failed... - Attempt 1 - No valid templates generated
+2025-09-26 17:49:21,969 - INFO - 📚 Recorded failure for learning. Retrying in 2 seconds...
+2025-09-26 17:49:22,708 - INFO - 
+🔄 === ITERATION 22 ===
+2025-09-26 17:49:22,708 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:49:22,709 - INFO - 📊 Completed: 1, Successful: 0, Failed: 1
+2025-09-26 17:49:22,709 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:49:22,709 - INFO - ✅ HEALTH: All 2 futures healthy (<1min)
+2025-09-26 17:49:22,709 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:49:22,709 - INFO -   - explore_1758880120539: 42.2s (healthy, running, EXPLORE)
+2025-09-26 17:49:22,709 - INFO -   - explore_1758880156679: 6.0s (healthy, running, EXPLORE)
+2025-09-26 17:49:22,717 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:49:23,969 - INFO - 🔄 Template generation attempt 2/5 for USA
+2025-09-26 17:49:23,970 - INFO - Generating 1 templates for region: USA
+2025-09-26 17:49:23,970 - INFO - Selected delay 1 for USA (multipliers: 0=1.8, 1=1.2, prob_0=0.60)
+2025-09-26 17:49:23,970 - INFO - Loading cached data fields for USA delay=1
+2025-09-26 17:49:23,971 - INFO - Loaded 274 cached fields for USA delay=1
+2025-09-26 17:49:23,971 - INFO - Available fields for USA (delay=1): 274 fields
+2025-09-26 17:49:23,971 - INFO - Sample fields: ['fscore_growth', 'fscore_momentum', 'fscore_profitability', 'fscore_quality', 'fscore_surface']
+2025-09-26 17:49:23,971 - INFO - UNLIMITED operators: Using ALL 65 operators for template generation
+2025-09-26 17:49:23,971 - INFO - Using 274 fields for template generation
+2025-09-26 17:49:23,972 - INFO - Selected model for Hunyuan API: hunyuan-turbos-latest
+2025-09-26 17:49:23,972 - INFO - Hunyuan API call attempt 1/3
+2025-09-26 17:49:24,717 - INFO - 
+🔄 === ITERATION 23 ===
+2025-09-26 17:49:24,717 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:49:24,717 - INFO - 📊 Completed: 1, Successful: 0, Failed: 1
+2025-09-26 17:49:24,717 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:49:24,717 - INFO - ✅ HEALTH: All 2 futures healthy (<1min)
+2025-09-26 17:49:24,718 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:49:24,718 - INFO -   - explore_1758880120539: 44.2s (healthy, running, EXPLORE)
+2025-09-26 17:49:24,718 - INFO -   - explore_1758880156679: 8.0s (healthy, running, EXPLORE)
+2025-09-26 17:49:24,725 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:49:26,726 - INFO - 
+🔄 === ITERATION 24 ===
+2025-09-26 17:49:26,726 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:49:26,726 - INFO - 📊 Completed: 1, Successful: 0, Failed: 1
+2025-09-26 17:49:26,726 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:49:26,726 - INFO - ✅ HEALTH: All 2 futures healthy (<1min)
+2025-09-26 17:49:26,726 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:49:26,726 - INFO -   - explore_1758880120539: 46.2s (healthy, running, EXPLORE)
+2025-09-26 17:49:26,726 - INFO -   - explore_1758880156679: 10.0s (healthy, running, EXPLORE)
+2025-09-26 17:49:26,734 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:49:28,734 - INFO - 
+🔄 === ITERATION 25 ===
+2025-09-26 17:49:28,734 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:49:28,734 - INFO - 📊 Completed: 1, Successful: 0, Failed: 1
+2025-09-26 17:49:28,734 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:49:28,734 - INFO - ✅ HEALTH: All 2 futures healthy (<1min)
+2025-09-26 17:49:28,734 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:49:28,734 - INFO -   - explore_1758880120539: 48.2s (healthy, running, EXPLORE)
+2025-09-26 17:49:28,734 - INFO -   - explore_1758880156679: 12.1s (healthy, running, EXPLORE)
+2025-09-26 17:49:28,743 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:49:30,743 - INFO - 
+🔄 === ITERATION 26 ===
+2025-09-26 17:49:30,743 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:49:30,743 - INFO - 📊 Completed: 1, Successful: 0, Failed: 1
+2025-09-26 17:49:30,743 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:49:30,743 - INFO - ✅ HEALTH: All 2 futures healthy (<1min)
+2025-09-26 17:49:30,743 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:49:30,743 - INFO -   - explore_1758880120539: 50.2s (healthy, running, EXPLORE)
+2025-09-26 17:49:30,743 - INFO -   - explore_1758880156679: 14.1s (healthy, running, EXPLORE)
+2025-09-26 17:49:30,752 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:49:32,752 - INFO - 
+🔄 === ITERATION 27 ===
+2025-09-26 17:49:32,752 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:49:32,752 - INFO - 📊 Completed: 1, Successful: 0, Failed: 1
+2025-09-26 17:49:32,752 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:49:32,752 - INFO - ✅ HEALTH: All 2 futures healthy (<1min)
+2025-09-26 17:49:32,752 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:49:32,752 - INFO -   - explore_1758880120539: 52.2s (healthy, running, EXPLORE)
+2025-09-26 17:49:32,752 - INFO -   - explore_1758880156679: 16.1s (healthy, running, EXPLORE)
+2025-09-26 17:49:32,760 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:49:34,760 - INFO - 
+🔄 === ITERATION 28 ===
+2025-09-26 17:49:34,761 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:49:34,761 - INFO - 📊 Completed: 1, Successful: 0, Failed: 1
+2025-09-26 17:49:34,761 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:49:34,761 - INFO - ✅ HEALTH: All 2 futures healthy (<1min)
+2025-09-26 17:49:34,761 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:49:34,761 - INFO -   - explore_1758880120539: 54.2s (healthy, running, EXPLORE)
+2025-09-26 17:49:34,761 - INFO -   - explore_1758880156679: 18.1s (healthy, running, EXPLORE)
+2025-09-26 17:49:34,769 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:49:36,769 - INFO - 
+🔄 === ITERATION 29 ===
+2025-09-26 17:49:36,769 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:49:36,769 - INFO - 📊 Completed: 1, Successful: 0, Failed: 1
+2025-09-26 17:49:36,769 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:49:36,769 - INFO - ✅ HEALTH: All 2 futures healthy (<1min)
+2025-09-26 17:49:36,769 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:49:36,769 - INFO -   - explore_1758880120539: 56.2s (healthy, running, EXPLORE)
+2025-09-26 17:49:36,770 - INFO -   - explore_1758880156679: 20.1s (healthy, running, EXPLORE)
+2025-09-26 17:49:36,778 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:49:38,778 - INFO - 
+🔄 === ITERATION 30 ===
+2025-09-26 17:49:38,778 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:49:38,778 - INFO - 📊 Completed: 1, Successful: 0, Failed: 1
+2025-09-26 17:49:38,778 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:49:38,778 - INFO - ✅ HEALTH: All 2 futures healthy (<1min)
+2025-09-26 17:49:38,779 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:49:38,779 - INFO -   - explore_1758880120539: 58.2s (healthy, running, EXPLORE)
+2025-09-26 17:49:38,779 - INFO -   - explore_1758880156679: 22.1s (healthy, running, EXPLORE)
+2025-09-26 17:49:38,787 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:49:40,787 - INFO - 
+🔄 === ITERATION 31 ===
+2025-09-26 17:49:40,787 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:49:40,787 - INFO - 📊 Completed: 1, Successful: 0, Failed: 1
+2025-09-26 17:49:40,787 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:49:40,788 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:49:40,788 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:49:40,788 - INFO -   - explore_1758880120539: 60.2s (slow, running, EXPLORE)
+2025-09-26 17:49:40,788 - INFO -   - explore_1758880156679: 24.1s (healthy, running, EXPLORE)
+2025-09-26 17:49:40,797 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:49:42,797 - INFO - 
+🔄 === ITERATION 32 ===
+2025-09-26 17:49:42,797 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:49:42,797 - INFO - 📊 Completed: 1, Successful: 0, Failed: 1
+2025-09-26 17:49:42,797 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:49:42,797 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:49:42,797 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:49:42,797 - INFO -   - explore_1758880120539: 62.3s (slow, running, EXPLORE)
+2025-09-26 17:49:42,797 - INFO -   - explore_1758880156679: 26.1s (healthy, running, EXPLORE)
+2025-09-26 17:49:42,805 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:49:44,806 - INFO - 
+🔄 === ITERATION 33 ===
+2025-09-26 17:49:44,806 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:49:44,806 - INFO - 📊 Completed: 1, Successful: 0, Failed: 1
+2025-09-26 17:49:44,806 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:49:44,806 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:49:44,806 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:49:44,806 - INFO -   - explore_1758880120539: 64.3s (slow, running, EXPLORE)
+2025-09-26 17:49:44,806 - INFO -   - explore_1758880156679: 28.1s (healthy, running, EXPLORE)
+2025-09-26 17:49:44,815 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:49:46,815 - INFO - 
+🔄 === ITERATION 34 ===
+2025-09-26 17:49:46,815 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:49:46,815 - INFO - 📊 Completed: 1, Successful: 0, Failed: 1
+2025-09-26 17:49:46,815 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:49:46,815 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:49:46,815 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:49:46,815 - INFO -   - explore_1758880120539: 66.3s (slow, running, EXPLORE)
+2025-09-26 17:49:46,815 - INFO -   - explore_1758880156679: 30.1s (healthy, running, EXPLORE)
+2025-09-26 17:49:46,823 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:49:48,824 - INFO - 
+🔄 === ITERATION 35 ===
+2025-09-26 17:49:48,824 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:49:48,824 - INFO - 📊 Completed: 1, Successful: 0, Failed: 1
+2025-09-26 17:49:48,824 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:49:48,824 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:49:48,824 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:49:48,824 - INFO -   - explore_1758880120539: 68.3s (slow, running, EXPLORE)
+2025-09-26 17:49:48,824 - INFO -   - explore_1758880156679: 32.1s (healthy, running, EXPLORE)
+2025-09-26 17:49:48,832 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:49:50,833 - INFO - 
+🔄 === ITERATION 36 ===
+2025-09-26 17:49:50,833 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:49:50,833 - INFO - 📊 Completed: 1, Successful: 0, Failed: 1
+2025-09-26 17:49:50,833 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:49:50,833 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:49:50,833 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:49:50,833 - INFO -   - explore_1758880120539: 70.3s (slow, running, EXPLORE)
+2025-09-26 17:49:50,833 - INFO -   - explore_1758880156679: 34.2s (healthy, running, EXPLORE)
+2025-09-26 17:49:50,842 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:49:52,842 - INFO - 
+🔄 === ITERATION 37 ===
+2025-09-26 17:49:52,842 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:49:52,842 - INFO - 📊 Completed: 1, Successful: 0, Failed: 1
+2025-09-26 17:49:52,842 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:49:52,843 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:49:52,843 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:49:52,843 - INFO -   - explore_1758880120539: 72.3s (slow, running, EXPLORE)
+2025-09-26 17:49:52,843 - INFO -   - explore_1758880156679: 36.2s (healthy, running, EXPLORE)
+2025-09-26 17:49:52,851 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:49:54,851 - INFO - 
+🔄 === ITERATION 38 ===
+2025-09-26 17:49:54,851 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:49:54,851 - INFO - 📊 Completed: 1, Successful: 0, Failed: 1
+2025-09-26 17:49:54,851 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:49:54,851 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:49:54,851 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:49:54,852 - INFO -   - explore_1758880120539: 74.3s (slow, running, EXPLORE)
+2025-09-26 17:49:54,852 - INFO -   - explore_1758880156679: 38.2s (healthy, running, EXPLORE)
+2025-09-26 17:49:54,860 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:49:55,520 - INFO - Hunyuan API call successful
+2025-09-26 17:49:55,521 - WARNING - Invalid template rejected: d1 = ts_corr(rp_css_revenue, rp_css_price, 60)... - Invalid function call syntax
+2025-09-26 17:49:55,521 - WARNING - Invalid template rejected: d2 = ts_zscore(d1, 30)... - Invalid function call syntax
+2025-09-26 17:49:55,521 - WARNING - Invalid template rejected: d3 = divide(enterprise_value, cashflow_op)... - Invalid function call syntax
+2025-09-26 17:49:55,521 - WARNING - Invalid template rejected: d4 = signed_power(d3, 0.5)... - Invalid function call syntax
+2025-09-26 17:49:55,521 - WARNING - Invalid template rejected: d5 = inverse(d4)... - Invalid function call syntax
+2025-09-26 17:49:55,521 - WARNING - Invalid template rejected: d6 = multiply(d2, d5)... - Invalid function call syntax
+2025-09-26 17:49:55,521 - WARNING - Invalid template rejected: d7 = winsorize(unsystematic_risk_last_30_days, 4)... - Invalid function call syntax
+2025-09-26 17:49:55,521 - WARNING - Invalid template rejected: d8 = subtract(d6, d7)... - Invalid function call syntax
+2025-09-26 17:49:55,521 - WARNING - Invalid template rejected: d9 = group_neutralize(d8, SECTOR)... - Invalid function call syntax
+2025-09-26 17:49:55,521 - WARNING - Invalid template rejected: d10 = normalize(d9)... - Invalid function call syntax
+2025-09-26 17:49:55,521 - INFO - Valid template: trade_when(greater(d10, 0.5), d10, 0)... (fields: [])
+2025-09-26 17:49:55,521 - INFO - Generated 1 valid templates for region USA
+2025-09-26 17:49:55,522 - INFO - ✅ Successfully generated 1 templates for USA on attempt 2
+2025-09-26 17:49:55,522 - INFO - 🔍 CONCURRENT EXPLORE: Generated template, starting simulation...
+2025-09-26 17:49:55,522 - INFO - 🔍 EXPLORING new template: trade_when(greater(d10, 0.5), d10, 0)...
+2025-09-26 17:49:55,522 - INFO - 🔍 CONCURRENT EXPLORE: Calling _simulate_template_concurrent...
+2025-09-26 17:49:55,522 - INFO - 🎮 CONCURRENT SIMULATION: Starting simulation for region USA
+2025-09-26 17:49:55,522 - INFO - 🎮 CONCURRENT SIMULATION: Using neutralization INDUSTRY
+2025-09-26 17:49:55,522 - INFO - 🎮 CONCURRENT SIMULATION: Submitting simulation to API...
+2025-09-26 17:49:56,860 - INFO - 
+🔄 === ITERATION 39 ===
+2025-09-26 17:49:56,860 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:49:56,860 - INFO - 📊 Completed: 1, Successful: 0, Failed: 1
+2025-09-26 17:49:56,860 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:49:56,860 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:49:56,860 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:49:56,860 - INFO -   - explore_1758880120539: 76.3s (slow, running, EXPLORE)
+2025-09-26 17:49:56,860 - INFO -   - explore_1758880156679: 40.2s (healthy, running, EXPLORE)
+2025-09-26 17:49:56,868 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:49:57,022 - INFO - 🎮 CONCURRENT SIMULATION: API response status: 201
+2025-09-26 17:49:57,022 - INFO - 🎮 CONCURRENT SIMULATION: Got progress URL: https://api.worldquantbrain.com/simulations/4A9hwx4rp4Gz9JpStA6pu7h
+2025-09-26 17:49:57,022 - INFO - 🎮 CONCURRENT SIMULATION: Starting to monitor simulation progress...
+2025-09-26 17:49:57,022 - INFO - 🎮 MONITORING: Starting to monitor simulation progress (max 3600s)
+2025-09-26 17:49:57,022 - INFO - 🎮 MONITORING: Check #1 (elapsed: 0.0s)
+2025-09-26 17:49:58,314 - INFO - 🎮 MONITORING: Status check response: 200
+2025-09-26 17:49:58,314 - INFO - 🎮 MONITORING: Simulation status: ERROR
+2025-09-26 17:49:58,314 - INFO - 📚 Recorded failure for USA: trade_when(greater(d10, 0.5), d10, 0)... - Attempted to use unknown variable "d10"
+2025-09-26 17:49:58,314 - INFO - 🎮 CONCURRENT SIMULATION: Monitoring completed, result: True
+2025-09-26 17:49:58,314 - INFO - 🔍 CONCURRENT EXPLORE: Simulation completed, result: True
+2025-09-26 17:49:58,869 - INFO - 
+🔄 === ITERATION 40 ===
+2025-09-26 17:49:58,869 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:49:58,869 - INFO - 📊 Completed: 1, Successful: 0, Failed: 1
+2025-09-26 17:49:58,869 - INFO - ❌ CONCURRENT simulation FAILED: trade_when(greater(d10, 0.5), d10, 0)... - Attempted to use unknown variable "d10"
+2025-09-26 17:49:58,869 - INFO - 📊 HEALTH: 1 futures active, 1 completed this cycle
+2025-09-26 17:49:58,869 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 0 healthy (<1min)
+2025-09-26 17:49:58,869 - INFO - 📊 ALL FUTURES STATUS: 1 futures active
+2025-09-26 17:49:58,869 - INFO -   - explore_1758880120539: 78.3s (slow, running, EXPLORE)
+2025-09-26 17:49:58,869 - INFO - 🎯 Filling 1 available slots with CONCURRENT tasks...
+2025-09-26 17:49:58,870 - INFO - 🎯 EXPLOIT mode: Looking for successful templates...
+2025-09-26 17:49:58,870 - INFO - 📊 Found 249 successful templates out of 249 total results
+2025-09-26 17:49:58,870 - INFO - 🏆 Best successful template: Sharpe=1.340, Region=USA
+2025-09-26 17:49:58,870 - WARNING - 🎯 EXPLOIT: No elite templates found, falling back to EXPLORE mode
+2025-09-26 17:49:58,870 - INFO - 📊 Available templates: 249
+2025-09-26 17:49:58,870 - INFO -    Template 1: Sharpe=-0.700, Fitness=-0.100, Margin=-0.000
+2025-09-26 17:49:58,870 - INFO -    Template 2: Sharpe=0.740, Fitness=0.300, Margin=0.000
+2025-09-26 17:49:58,870 - INFO -    Template 3: Sharpe=-0.240, Fitness=-0.040, Margin=-0.000
+2025-09-26 17:49:58,870 - INFO - 🔄 FALLBACK: Switching to EXPLORE mode due to no elite templates
+2025-09-26 17:49:58,870 - INFO - 🚀 Started CONCURRENT EXPLORE task: explore_1758880198870
+2025-09-26 17:49:58,870 - INFO - 🔍 CONCURRENT EXPLORE: Starting exploration task
+2025-09-26 17:49:58,871 - INFO - 🔍 CONCURRENT EXPLORE: Selecting region...
+2025-09-26 17:49:58,871 - INFO - Selected delay 0 for USA (multipliers: 0=1.8, 1=1.2, prob_0=0.60)
+2025-09-26 17:49:58,871 - INFO - 🔍 CONCURRENT EXPLORE: Selected region USA
+2025-09-26 17:49:58,871 - INFO - 🔍 CONCURRENT EXPLORE: Selecting delay...
+2025-09-26 17:49:58,871 - INFO - Selected delay 1 for USA (multipliers: 0=1.8, 1=1.2, prob_0=0.60)
+2025-09-26 17:49:58,871 - INFO - 🔍 CONCURRENT EXPLORE: Selected delay 1
+2025-09-26 17:49:58,871 - INFO - 🔍 CONCURRENT EXPLORE: Generating templates for USA...
+2025-09-26 17:49:58,871 - INFO - 🔄 Template generation attempt 1/5 for USA
+2025-09-26 17:49:58,871 - INFO - Generating 1 templates for region: USA
+2025-09-26 17:49:58,871 - INFO - Selected delay 0 for USA (multipliers: 0=1.8, 1=1.2, prob_0=0.60)
+2025-09-26 17:49:58,872 - INFO - Loading cached data fields for USA delay=0
+2025-09-26 17:49:58,874 - INFO - Loaded 214 cached fields for USA delay=0
+2025-09-26 17:49:58,875 - INFO - Available fields for USA (delay=0): 214 fields
+2025-09-26 17:49:58,875 - INFO - Sample fields: ['anl4_adxqf_down', 'anl4_adxqf_high', 'anl4_adxqf_low', 'anl4_adxqf_mean', 'anl4_adxqf_median']
+2025-09-26 17:49:58,875 - INFO - LIMITED operators: Selected 5 operators (max: 5) for template generation
+2025-09-26 17:49:58,876 - INFO - Using 214 fields for template generation
+2025-09-26 17:49:58,876 - INFO - Selected model for Hunyuan API: hunyuan-turbos-latest
+2025-09-26 17:49:58,877 - INFO - Hunyuan API call attempt 1/3
+2025-09-26 17:49:58,883 - INFO - Progress saved to template_progress_v2.json
+[TencentCloudSDKException] code:ClientNetworkError message:HTTPSConnectionPool(host='hunyuan.tencentcloudapi.com', port=443): Read timed out. (read timeout=80) requestId:None
+2025-09-26 17:50:00,795 - ERROR - Hunyuan API call failed: [TencentCloudSDKException] code:ClientNetworkError message:HTTPSConnectionPool(host='hunyuan.tencentcloudapi.com', port=443): Read timed out. (read timeout=80) requestId:None
+2025-09-26 17:50:00,884 - INFO - 
+🔄 === ITERATION 41 ===
+2025-09-26 17:50:00,884 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:50:00,884 - INFO - 📊 Completed: 2, Successful: 0, Failed: 2
+2025-09-26 17:50:00,884 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:50:00,884 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:50:00,884 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:50:00,884 - INFO -   - explore_1758880120539: 80.3s (slow, running, EXPLORE)
+2025-09-26 17:50:00,884 - INFO -   - explore_1758880198870: 2.0s (healthy, running, EXPLORE)
+2025-09-26 17:50:00,893 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:50:02,893 - INFO - 
+🔄 === ITERATION 42 ===
+2025-09-26 17:50:02,893 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:50:02,893 - INFO - 📊 Completed: 2, Successful: 0, Failed: 2
+2025-09-26 17:50:02,893 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:50:02,893 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:50:02,893 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:50:02,893 - INFO -   - explore_1758880120539: 82.4s (slow, running, EXPLORE)
+2025-09-26 17:50:02,893 - INFO -   - explore_1758880198870: 4.0s (healthy, running, EXPLORE)
+2025-09-26 17:50:02,902 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:50:04,902 - INFO - 
+🔄 === ITERATION 43 ===
+2025-09-26 17:50:04,902 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:50:04,902 - INFO - 📊 Completed: 2, Successful: 0, Failed: 2
+2025-09-26 17:50:04,902 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:50:04,902 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:50:04,902 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:50:04,902 - INFO -   - explore_1758880120539: 84.4s (slow, running, EXPLORE)
+2025-09-26 17:50:04,902 - INFO -   - explore_1758880198870: 6.0s (healthy, running, EXPLORE)
+2025-09-26 17:50:04,910 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:50:06,911 - INFO - 
+🔄 === ITERATION 44 ===
+2025-09-26 17:50:06,911 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:50:06,911 - INFO - 📊 Completed: 2, Successful: 0, Failed: 2
+2025-09-26 17:50:06,911 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:50:06,911 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:50:06,911 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:50:06,911 - INFO -   - explore_1758880120539: 86.4s (slow, running, EXPLORE)
+2025-09-26 17:50:06,911 - INFO -   - explore_1758880198870: 8.0s (healthy, running, EXPLORE)
+2025-09-26 17:50:06,920 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:50:08,920 - INFO - 
+🔄 === ITERATION 45 ===
+2025-09-26 17:50:08,920 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:50:08,920 - INFO - 📊 Completed: 2, Successful: 0, Failed: 2
+2025-09-26 17:50:08,920 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:50:08,920 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:50:08,920 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:50:08,920 - INFO -   - explore_1758880120539: 88.4s (slow, running, EXPLORE)
+2025-09-26 17:50:08,920 - INFO -   - explore_1758880198870: 10.0s (healthy, running, EXPLORE)
+2025-09-26 17:50:08,929 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:50:10,929 - INFO - 
+🔄 === ITERATION 46 ===
+2025-09-26 17:50:10,929 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:50:10,930 - INFO - 📊 Completed: 2, Successful: 0, Failed: 2
+2025-09-26 17:50:10,930 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:50:10,930 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:50:10,930 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:50:10,930 - INFO -   - explore_1758880120539: 90.4s (slow, running, EXPLORE)
+2025-09-26 17:50:10,930 - INFO -   - explore_1758880198870: 12.1s (healthy, running, EXPLORE)
+2025-09-26 17:50:10,938 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:50:12,938 - INFO - 
+🔄 === ITERATION 47 ===
+2025-09-26 17:50:12,938 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:50:12,938 - INFO - 📊 Completed: 2, Successful: 0, Failed: 2
+2025-09-26 17:50:12,939 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:50:12,939 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:50:12,939 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:50:12,939 - INFO -   - explore_1758880120539: 92.4s (slow, running, EXPLORE)
+2025-09-26 17:50:12,939 - INFO -   - explore_1758880198870: 14.1s (healthy, running, EXPLORE)
+2025-09-26 17:50:12,948 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:50:14,949 - INFO - 
+🔄 === ITERATION 48 ===
+2025-09-26 17:50:14,949 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:50:14,949 - INFO - 📊 Completed: 2, Successful: 0, Failed: 2
+2025-09-26 17:50:14,949 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:50:14,949 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:50:14,949 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:50:14,949 - INFO -   - explore_1758880120539: 94.4s (slow, running, EXPLORE)
+2025-09-26 17:50:14,949 - INFO -   - explore_1758880198870: 16.1s (healthy, running, EXPLORE)
+2025-09-26 17:50:14,957 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:50:16,957 - INFO - 
+🔄 === ITERATION 49 ===
+2025-09-26 17:50:16,957 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:50:16,957 - INFO - 📊 Completed: 2, Successful: 0, Failed: 2
+2025-09-26 17:50:16,957 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:50:16,957 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:50:16,958 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:50:16,958 - INFO -   - explore_1758880120539: 96.4s (slow, running, EXPLORE)
+2025-09-26 17:50:16,958 - INFO -   - explore_1758880198870: 18.1s (healthy, running, EXPLORE)
+2025-09-26 17:50:16,966 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:50:18,966 - INFO - 
+🔄 === ITERATION 50 ===
+2025-09-26 17:50:18,966 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:50:18,966 - INFO - 📊 Completed: 2, Successful: 0, Failed: 2
+2025-09-26 17:50:18,966 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:50:18,966 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:50:18,967 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:50:18,967 - INFO -   - explore_1758880120539: 98.4s (slow, running, EXPLORE)
+2025-09-26 17:50:18,967 - INFO -   - explore_1758880198870: 20.1s (healthy, running, EXPLORE)
+2025-09-26 17:50:18,975 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:50:20,975 - INFO - 
+🔄 === ITERATION 51 ===
+2025-09-26 17:50:20,975 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:50:20,976 - INFO - 📊 Completed: 2, Successful: 0, Failed: 2
+2025-09-26 17:50:20,976 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:50:20,976 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:50:20,976 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:50:20,976 - INFO -   - explore_1758880120539: 100.4s (slow, running, EXPLORE)
+2025-09-26 17:50:20,976 - INFO -   - explore_1758880198870: 22.1s (healthy, running, EXPLORE)
+2025-09-26 17:50:20,984 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:50:22,984 - INFO - 
+🔄 === ITERATION 52 ===
+2025-09-26 17:50:22,984 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:50:22,985 - INFO - 📊 Completed: 2, Successful: 0, Failed: 2
+2025-09-26 17:50:22,985 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:50:22,985 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:50:22,985 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:50:22,985 - INFO -   - explore_1758880120539: 102.4s (slow, running, EXPLORE)
+2025-09-26 17:50:22,985 - INFO -   - explore_1758880198870: 24.1s (healthy, running, EXPLORE)
+2025-09-26 17:50:22,993 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:50:24,993 - INFO - 
+🔄 === ITERATION 53 ===
+2025-09-26 17:50:24,993 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:50:24,993 - INFO - 📊 Completed: 2, Successful: 0, Failed: 2
+2025-09-26 17:50:24,993 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:50:24,994 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:50:24,994 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:50:24,994 - INFO -   - explore_1758880120539: 104.5s (slow, running, EXPLORE)
+2025-09-26 17:50:24,994 - INFO -   - explore_1758880198870: 26.1s (healthy, running, EXPLORE)
+2025-09-26 17:50:25,002 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:50:27,002 - INFO - 
+🔄 === ITERATION 54 ===
+2025-09-26 17:50:27,002 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:50:27,002 - INFO - 📊 Completed: 2, Successful: 0, Failed: 2
+2025-09-26 17:50:27,003 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:50:27,003 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:50:27,003 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:50:27,003 - INFO -   - explore_1758880120539: 106.5s (slow, running, EXPLORE)
+2025-09-26 17:50:27,003 - INFO -   - explore_1758880198870: 28.1s (healthy, running, EXPLORE)
+2025-09-26 17:50:27,011 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:50:29,011 - INFO - 
+🔄 === ITERATION 55 ===
+2025-09-26 17:50:29,011 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:50:29,011 - INFO - 📊 Completed: 2, Successful: 0, Failed: 2
+2025-09-26 17:50:29,011 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:50:29,011 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:50:29,011 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:50:29,011 - INFO -   - explore_1758880120539: 108.5s (slow, running, EXPLORE)
+2025-09-26 17:50:29,012 - INFO -   - explore_1758880198870: 30.1s (healthy, running, EXPLORE)
+2025-09-26 17:50:29,020 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:50:31,020 - INFO - 
+🔄 === ITERATION 56 ===
+2025-09-26 17:50:31,020 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:50:31,020 - INFO - 📊 Completed: 2, Successful: 0, Failed: 2
+2025-09-26 17:50:31,020 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:50:31,020 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:50:31,020 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:50:31,020 - INFO -   - explore_1758880120539: 110.5s (slow, running, EXPLORE)
+2025-09-26 17:50:31,020 - INFO -   - explore_1758880198870: 32.1s (healthy, running, EXPLORE)
+2025-09-26 17:50:31,029 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:50:31,796 - INFO - Hunyuan API call attempt 2/3
+2025-09-26 17:50:33,029 - INFO - 
+🔄 === ITERATION 57 ===
+2025-09-26 17:50:33,029 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:50:33,029 - INFO - 📊 Completed: 2, Successful: 0, Failed: 2
+2025-09-26 17:50:33,029 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:50:33,029 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:50:33,029 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:50:33,029 - INFO -   - explore_1758880120539: 112.5s (slow, running, EXPLORE)
+2025-09-26 17:50:33,029 - INFO -   - explore_1758880198870: 34.2s (healthy, running, EXPLORE)
+2025-09-26 17:50:33,038 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:50:35,038 - INFO - 
+🔄 === ITERATION 58 ===
+2025-09-26 17:50:35,039 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:50:35,039 - INFO - 📊 Completed: 2, Successful: 0, Failed: 2
+2025-09-26 17:50:35,039 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:50:35,039 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:50:35,039 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:50:35,039 - INFO -   - explore_1758880120539: 114.5s (slow, running, EXPLORE)
+2025-09-26 17:50:35,039 - INFO -   - explore_1758880198870: 36.2s (healthy, running, EXPLORE)
+2025-09-26 17:50:35,047 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:50:37,047 - INFO - 
+🔄 === ITERATION 59 ===
+2025-09-26 17:50:37,048 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:50:37,048 - INFO - 📊 Completed: 2, Successful: 0, Failed: 2
+2025-09-26 17:50:37,048 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:50:37,048 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:50:37,048 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:50:37,048 - INFO -   - explore_1758880120539: 116.5s (slow, running, EXPLORE)
+2025-09-26 17:50:37,048 - INFO -   - explore_1758880198870: 38.2s (healthy, running, EXPLORE)
+2025-09-26 17:50:37,057 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:50:39,057 - INFO - 
+🔄 === ITERATION 60 ===
+2025-09-26 17:50:39,057 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:50:39,057 - INFO - 📊 Completed: 2, Successful: 0, Failed: 2
+2025-09-26 17:50:39,057 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:50:39,057 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:50:39,057 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:50:39,057 - INFO -   - explore_1758880120539: 118.5s (slow, running, EXPLORE)
+2025-09-26 17:50:39,058 - INFO -   - explore_1758880198870: 40.2s (healthy, running, EXPLORE)
+2025-09-26 17:50:39,066 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:50:41,066 - INFO - 
+🔄 === ITERATION 61 ===
+2025-09-26 17:50:41,066 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:50:41,066 - INFO - 📊 Completed: 2, Successful: 0, Failed: 2
+2025-09-26 17:50:41,066 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:50:41,066 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:50:41,066 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:50:41,066 - INFO -   - explore_1758880120539: 120.5s (slow, running, EXPLORE)
+2025-09-26 17:50:41,066 - INFO -   - explore_1758880198870: 42.2s (healthy, running, EXPLORE)
+2025-09-26 17:50:41,075 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:50:43,075 - INFO - 
+🔄 === ITERATION 62 ===
+2025-09-26 17:50:43,075 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:50:43,075 - INFO - 📊 Completed: 2, Successful: 0, Failed: 2
+2025-09-26 17:50:43,075 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:50:43,075 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:50:43,075 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:50:43,075 - INFO -   - explore_1758880120539: 122.5s (slow, running, EXPLORE)
+2025-09-26 17:50:43,076 - INFO -   - explore_1758880198870: 44.2s (healthy, running, EXPLORE)
+2025-09-26 17:50:43,084 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:50:45,084 - INFO - 
+🔄 === ITERATION 63 ===
+2025-09-26 17:50:45,085 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:50:45,085 - INFO - 📊 Completed: 2, Successful: 0, Failed: 2
+2025-09-26 17:50:45,085 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:50:45,085 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:50:45,085 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:50:45,086 - INFO -   - explore_1758880120539: 124.5s (slow, running, EXPLORE)
+2025-09-26 17:50:45,086 - INFO -   - explore_1758880198870: 46.2s (healthy, running, EXPLORE)
+2025-09-26 17:50:45,095 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:50:46,705 - INFO - Hunyuan API call successful
+2025-09-26 17:50:46,707 - INFO - Valid template: group_rank(multiply(ts_covariance(news_max_up_ret,... (fields: ['cash', 'cashflow', 'cashflow_op', 'depre_amort', 'equity', 'news_max_up_ret'])
+2025-09-26 17:50:46,707 - INFO - Generated 1 valid templates for region USA
+2025-09-26 17:50:46,707 - INFO - ✅ Successfully generated 1 templates for USA on attempt 1
+2025-09-26 17:50:46,707 - INFO - 🔍 CONCURRENT EXPLORE: Generated template, starting simulation...
+2025-09-26 17:50:46,707 - INFO - 🔍 EXPLORING new template: group_rank(multiply(ts_covariance(news_max_up_ret,...
+2025-09-26 17:50:46,707 - INFO - 🔍 CONCURRENT EXPLORE: Calling _simulate_template_concurrent...
+2025-09-26 17:50:46,707 - INFO - 🎮 CONCURRENT SIMULATION: Starting simulation for region USA
+2025-09-26 17:50:46,707 - INFO - 🎮 CONCURRENT SIMULATION: Using neutralization INDUSTRY
+2025-09-26 17:50:46,707 - INFO - 🎮 CONCURRENT SIMULATION: Submitting simulation to API...
+2025-09-26 17:50:47,095 - INFO - 
+🔄 === ITERATION 64 ===
+2025-09-26 17:50:47,095 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:50:47,095 - INFO - 📊 Completed: 2, Successful: 0, Failed: 2
+2025-09-26 17:50:47,095 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:50:47,095 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:50:47,095 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:50:47,095 - INFO -   - explore_1758880120539: 126.6s (slow, running, EXPLORE)
+2025-09-26 17:50:47,095 - INFO -   - explore_1758880198870: 48.2s (healthy, running, EXPLORE)
+2025-09-26 17:50:47,104 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:50:49,059 - INFO - 🎮 CONCURRENT SIMULATION: API response status: 201
+2025-09-26 17:50:49,059 - INFO - 🎮 CONCURRENT SIMULATION: Got progress URL: https://api.worldquantbrain.com/simulations/3KZZgO8pX4MNbR3YEyFm8fm
+2025-09-26 17:50:49,059 - INFO - 🎮 CONCURRENT SIMULATION: Starting to monitor simulation progress...
+2025-09-26 17:50:49,059 - INFO - 🎮 MONITORING: Starting to monitor simulation progress (max 3600s)
+2025-09-26 17:50:49,060 - INFO - 🎮 MONITORING: Check #1 (elapsed: 0.0s)
+2025-09-26 17:50:49,104 - INFO - 
+🔄 === ITERATION 65 ===
+2025-09-26 17:50:49,105 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:50:49,105 - INFO - 📊 Completed: 2, Successful: 0, Failed: 2
+2025-09-26 17:50:49,105 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:50:49,105 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:50:49,105 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:50:49,105 - INFO -   - explore_1758880120539: 128.6s (slow, running, EXPLORE)
+2025-09-26 17:50:49,105 - INFO -   - explore_1758880198870: 50.2s (healthy, running, EXPLORE)
+2025-09-26 17:50:49,113 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:50:49,804 - INFO - 🎮 MONITORING: Status check response: 200
+2025-09-26 17:50:49,804 - INFO - 🎮 MONITORING: Simulation status: ERROR
+2025-09-26 17:50:49,804 - INFO - 📚 Recorded failure for USA: group_rank(multiply(ts_covariance(news_max_up_ret,... - Attempted to use unknown variable "news_min_dn_ret"
+2025-09-26 17:50:49,804 - INFO - 🎮 CONCURRENT SIMULATION: Monitoring completed, result: True
+2025-09-26 17:50:49,804 - INFO - 🔍 CONCURRENT EXPLORE: Simulation completed, result: True
+2025-09-26 17:50:51,114 - INFO - 
+🔄 === ITERATION 66 ===
+2025-09-26 17:50:51,114 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:50:51,114 - INFO - 📊 Completed: 2, Successful: 0, Failed: 2
+2025-09-26 17:50:51,114 - INFO - ❌ CONCURRENT simulation FAILED: group_rank(multiply(ts_covariance(news_max_up_ret,... - Attempted to use unknown variable "news_min_dn_ret"
+2025-09-26 17:50:51,114 - INFO - 📊 HEALTH: 1 futures active, 1 completed this cycle
+2025-09-26 17:50:51,114 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 0 healthy (<1min)
+2025-09-26 17:50:51,114 - INFO - 📊 ALL FUTURES STATUS: 1 futures active
+2025-09-26 17:50:51,114 - INFO -   - explore_1758880120539: 130.6s (slow, running, EXPLORE)
+2025-09-26 17:50:51,114 - INFO - 🎯 Filling 1 available slots with CONCURRENT tasks...
+2025-09-26 17:50:51,114 - INFO - 🚀 Started CONCURRENT EXPLORE task: explore_1758880251114
+2025-09-26 17:50:51,114 - INFO - 🔍 CONCURRENT EXPLORE: Starting exploration task
+2025-09-26 17:50:51,115 - INFO - 🔍 CONCURRENT EXPLORE: Selecting region...
+2025-09-26 17:50:51,115 - INFO - Selected delay 1 for USA (multipliers: 0=1.8, 1=1.2, prob_0=0.60)
+2025-09-26 17:50:51,115 - INFO - 🔍 CONCURRENT EXPLORE: Selected region USA
+2025-09-26 17:50:51,115 - INFO - 🔍 CONCURRENT EXPLORE: Selecting delay...
+2025-09-26 17:50:51,115 - INFO - Selected delay 0 for USA (multipliers: 0=1.8, 1=1.2, prob_0=0.60)
+2025-09-26 17:50:51,115 - INFO - 🔍 CONCURRENT EXPLORE: Selected delay 0
+2025-09-26 17:50:51,115 - INFO - 🔍 CONCURRENT EXPLORE: Generating templates for USA...
+2025-09-26 17:50:51,115 - INFO - 🔄 Template generation attempt 1/5 for USA
+2025-09-26 17:50:51,116 - INFO - Generating 1 templates for region: USA
+2025-09-26 17:50:51,116 - INFO - Selected delay 1 for USA (multipliers: 0=1.8, 1=1.2, prob_0=0.60)
+2025-09-26 17:50:51,116 - INFO - Loading cached data fields for USA delay=1
+2025-09-26 17:50:51,119 - INFO - Loaded 274 cached fields for USA delay=1
+2025-09-26 17:50:51,119 - INFO - Available fields for USA (delay=1): 274 fields
+2025-09-26 17:50:51,119 - INFO - Sample fields: ['fscore_growth', 'fscore_momentum', 'fscore_profitability', 'fscore_quality', 'fscore_surface']
+2025-09-26 17:50:51,120 - INFO - LIMITED operators: Selected 6 operators (max: 6) for template generation
+2025-09-26 17:50:51,120 - INFO - Using 274 fields for template generation
+2025-09-26 17:50:51,120 - INFO - Selected model for Hunyuan API: hunyuan-t1-latest
+2025-09-26 17:50:51,120 - INFO - Hunyuan API call attempt 1/3
+2025-09-26 17:50:51,127 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:50:53,127 - INFO - 
+🔄 === ITERATION 67 ===
+2025-09-26 17:50:53,128 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:50:53,128 - INFO - 📊 Completed: 3, Successful: 0, Failed: 3
+2025-09-26 17:50:53,128 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:50:53,128 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:50:53,128 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:50:53,128 - INFO -   - explore_1758880120539: 132.6s (slow, running, EXPLORE)
+2025-09-26 17:50:53,128 - INFO -   - explore_1758880251114: 2.0s (healthy, running, EXPLORE)
+2025-09-26 17:50:53,137 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:50:55,137 - INFO - 
+🔄 === ITERATION 68 ===
+2025-09-26 17:50:55,137 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:50:55,137 - INFO - 📊 Completed: 3, Successful: 0, Failed: 3
+2025-09-26 17:50:55,137 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:50:55,137 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:50:55,137 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:50:55,137 - INFO -   - explore_1758880120539: 134.6s (slow, running, EXPLORE)
+2025-09-26 17:50:55,137 - INFO -   - explore_1758880251114: 4.0s (healthy, running, EXPLORE)
+2025-09-26 17:50:55,146 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:50:57,146 - INFO - 
+🔄 === ITERATION 69 ===
+2025-09-26 17:50:57,146 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:50:57,146 - INFO - 📊 Completed: 3, Successful: 0, Failed: 3
+2025-09-26 17:50:57,146 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:50:57,146 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:50:57,146 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:50:57,146 - INFO -   - explore_1758880120539: 136.6s (slow, running, EXPLORE)
+2025-09-26 17:50:57,146 - INFO -   - explore_1758880251114: 6.0s (healthy, running, EXPLORE)
+2025-09-26 17:50:57,155 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:50:59,155 - INFO - 
+🔄 === ITERATION 70 ===
+2025-09-26 17:50:59,155 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:50:59,155 - INFO - 📊 Completed: 3, Successful: 0, Failed: 3
+2025-09-26 17:50:59,155 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:50:59,155 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:50:59,155 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:50:59,155 - INFO -   - explore_1758880120539: 138.6s (slow, running, EXPLORE)
+2025-09-26 17:50:59,155 - INFO -   - explore_1758880251114: 8.0s (healthy, running, EXPLORE)
+2025-09-26 17:50:59,163 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:51:01,163 - INFO - 
+🔄 === ITERATION 71 ===
+2025-09-26 17:51:01,163 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:51:01,164 - INFO - 📊 Completed: 3, Successful: 0, Failed: 3
+2025-09-26 17:51:01,164 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:51:01,164 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:51:01,164 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:51:01,164 - INFO -   - explore_1758880120539: 140.6s (slow, running, EXPLORE)
+2025-09-26 17:51:01,164 - INFO -   - explore_1758880251114: 10.0s (healthy, running, EXPLORE)
+2025-09-26 17:51:01,172 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:51:03,172 - INFO - 
+🔄 === ITERATION 72 ===
+2025-09-26 17:51:03,172 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:51:03,172 - INFO - 📊 Completed: 3, Successful: 0, Failed: 3
+2025-09-26 17:51:03,173 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:51:03,173 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:51:03,173 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:51:03,173 - INFO -   - explore_1758880120539: 142.6s (slow, running, EXPLORE)
+2025-09-26 17:51:03,173 - INFO -   - explore_1758880251114: 12.1s (healthy, running, EXPLORE)
+2025-09-26 17:51:03,181 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:51:05,181 - INFO - 
+🔄 === ITERATION 73 ===
+2025-09-26 17:51:05,181 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:51:05,181 - INFO - 📊 Completed: 3, Successful: 0, Failed: 3
+2025-09-26 17:51:05,182 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:51:05,182 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:51:05,182 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:51:05,182 - INFO -   - explore_1758880120539: 144.6s (slow, running, EXPLORE)
+2025-09-26 17:51:05,182 - INFO -   - explore_1758880251114: 14.1s (healthy, running, EXPLORE)
+2025-09-26 17:51:05,190 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:51:07,190 - INFO - 
+🔄 === ITERATION 74 ===
+2025-09-26 17:51:07,191 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:51:07,191 - INFO - 📊 Completed: 3, Successful: 0, Failed: 3
+2025-09-26 17:51:07,191 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:51:07,191 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:51:07,191 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:51:07,191 - INFO -   - explore_1758880120539: 146.7s (slow, running, EXPLORE)
+2025-09-26 17:51:07,191 - INFO -   - explore_1758880251114: 16.1s (healthy, running, EXPLORE)
+2025-09-26 17:51:07,199 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:51:09,199 - INFO - 
+🔄 === ITERATION 75 ===
+2025-09-26 17:51:09,199 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:51:09,199 - INFO - 📊 Completed: 3, Successful: 0, Failed: 3
+2025-09-26 17:51:09,199 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:51:09,200 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:51:09,200 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:51:09,200 - INFO -   - explore_1758880120539: 148.7s (slow, running, EXPLORE)
+2025-09-26 17:51:09,200 - INFO -   - explore_1758880251114: 18.1s (healthy, running, EXPLORE)
+2025-09-26 17:51:09,207 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:51:11,208 - INFO - 
+🔄 === ITERATION 76 ===
+2025-09-26 17:51:11,208 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:51:11,208 - INFO - 📊 Completed: 3, Successful: 0, Failed: 3
+2025-09-26 17:51:11,208 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:51:11,208 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:51:11,208 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:51:11,208 - INFO -   - explore_1758880120539: 150.7s (slow, running, EXPLORE)
+2025-09-26 17:51:11,208 - INFO -   - explore_1758880251114: 20.1s (healthy, running, EXPLORE)
+2025-09-26 17:51:11,216 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:51:13,216 - INFO - 
+🔄 === ITERATION 77 ===
+2025-09-26 17:51:13,216 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:51:13,217 - INFO - 📊 Completed: 3, Successful: 0, Failed: 3
+2025-09-26 17:51:13,217 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:51:13,217 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:51:13,217 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:51:13,217 - INFO -   - explore_1758880120539: 152.7s (slow, running, EXPLORE)
+2025-09-26 17:51:13,217 - INFO -   - explore_1758880251114: 22.1s (healthy, running, EXPLORE)
+2025-09-26 17:51:13,225 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:51:15,225 - INFO - 
+🔄 === ITERATION 78 ===
+2025-09-26 17:51:15,225 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:51:15,225 - INFO - 📊 Completed: 3, Successful: 0, Failed: 3
+2025-09-26 17:51:15,225 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:51:15,225 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:51:15,225 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:51:15,225 - INFO -   - explore_1758880120539: 154.7s (slow, running, EXPLORE)
+2025-09-26 17:51:15,225 - INFO -   - explore_1758880251114: 24.1s (healthy, running, EXPLORE)
+2025-09-26 17:51:15,233 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:51:17,234 - INFO - 
+🔄 === ITERATION 79 ===
+2025-09-26 17:51:17,234 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:51:17,234 - INFO - 📊 Completed: 3, Successful: 0, Failed: 3
+2025-09-26 17:51:17,234 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:51:17,234 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:51:17,234 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:51:17,234 - INFO -   - explore_1758880120539: 156.7s (slow, running, EXPLORE)
+2025-09-26 17:51:17,234 - INFO -   - explore_1758880251114: 26.1s (healthy, running, EXPLORE)
+2025-09-26 17:51:17,242 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:51:19,242 - INFO - 
+🔄 === ITERATION 80 ===
+2025-09-26 17:51:19,242 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:51:19,242 - INFO - 📊 Completed: 3, Successful: 0, Failed: 3
+2025-09-26 17:51:19,242 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:51:19,242 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:51:19,242 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:51:19,242 - INFO -   - explore_1758880120539: 158.7s (slow, running, EXPLORE)
+2025-09-26 17:51:19,242 - INFO -   - explore_1758880251114: 28.1s (healthy, running, EXPLORE)
+2025-09-26 17:51:19,251 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:51:21,251 - INFO - 
+🔄 === ITERATION 81 ===
+2025-09-26 17:51:21,251 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:51:21,251 - INFO - 📊 Completed: 3, Successful: 0, Failed: 3
+2025-09-26 17:51:21,251 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:51:21,252 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:51:21,252 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:51:21,252 - INFO -   - explore_1758880120539: 160.7s (slow, running, EXPLORE)
+2025-09-26 17:51:21,252 - INFO -   - explore_1758880251114: 30.1s (healthy, running, EXPLORE)
+2025-09-26 17:51:21,259 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:51:23,260 - INFO - 
+🔄 === ITERATION 82 ===
+2025-09-26 17:51:23,260 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:51:23,260 - INFO - 📊 Completed: 3, Successful: 0, Failed: 3
+2025-09-26 17:51:23,260 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:51:23,260 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:51:23,260 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:51:23,260 - INFO -   - explore_1758880120539: 162.7s (slow, running, EXPLORE)
+2025-09-26 17:51:23,260 - INFO -   - explore_1758880251114: 32.1s (healthy, running, EXPLORE)
+2025-09-26 17:51:23,268 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:51:25,268 - INFO - 
+🔄 === ITERATION 83 ===
+2025-09-26 17:51:25,268 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:51:25,268 - INFO - 📊 Completed: 3, Successful: 0, Failed: 3
+2025-09-26 17:51:25,269 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:51:25,269 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:51:25,269 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:51:25,269 - INFO -   - explore_1758880120539: 164.7s (slow, running, EXPLORE)
+2025-09-26 17:51:25,269 - INFO -   - explore_1758880251114: 34.2s (healthy, running, EXPLORE)
+2025-09-26 17:51:25,279 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:51:27,279 - INFO - 
+🔄 === ITERATION 84 ===
+2025-09-26 17:51:27,279 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:51:27,280 - INFO - 📊 Completed: 3, Successful: 0, Failed: 3
+2025-09-26 17:51:27,280 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:51:27,280 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:51:27,280 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:51:27,280 - INFO -   - explore_1758880120539: 166.7s (slow, running, EXPLORE)
+2025-09-26 17:51:27,280 - INFO -   - explore_1758880251114: 36.2s (healthy, running, EXPLORE)
+2025-09-26 17:51:27,288 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:51:29,288 - INFO - 
+🔄 === ITERATION 85 ===
+2025-09-26 17:51:29,288 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:51:29,288 - INFO - 📊 Completed: 3, Successful: 0, Failed: 3
+2025-09-26 17:51:29,289 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:51:29,289 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:51:29,289 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:51:29,289 - INFO -   - explore_1758880120539: 168.7s (slow, running, EXPLORE)
+2025-09-26 17:51:29,289 - INFO -   - explore_1758880251114: 38.2s (healthy, running, EXPLORE)
+2025-09-26 17:51:29,297 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:51:31,297 - INFO - 
+🔄 === ITERATION 86 ===
+2025-09-26 17:51:31,297 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:51:31,297 - INFO - 📊 Completed: 3, Successful: 0, Failed: 3
+2025-09-26 17:51:31,297 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:51:31,298 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:51:31,298 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:51:31,298 - INFO -   - explore_1758880120539: 170.8s (slow, running, EXPLORE)
+2025-09-26 17:51:31,298 - INFO -   - explore_1758880251114: 40.2s (healthy, running, EXPLORE)
+2025-09-26 17:51:31,306 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:51:33,306 - INFO - 
+🔄 === ITERATION 87 ===
+2025-09-26 17:51:33,306 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:51:33,306 - INFO - 📊 Completed: 3, Successful: 0, Failed: 3
+2025-09-26 17:51:33,307 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:51:33,307 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:51:33,307 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:51:33,307 - INFO -   - explore_1758880120539: 172.8s (slow, running, EXPLORE)
+2025-09-26 17:51:33,307 - INFO -   - explore_1758880251114: 42.2s (healthy, running, EXPLORE)
+2025-09-26 17:51:33,315 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:51:34,710 - INFO - Hunyuan API call successful
+2025-09-26 17:51:34,711 - INFO - Valid template: zscore(multiply(ts_zscore(rp_css_revenue,60),ts_zs... (fields: ['rp_css_revenue', 'cash', 'cashflow', 'cashflow_op'])
+2025-09-26 17:51:34,711 - INFO - Generated 1 valid templates for region USA
+2025-09-26 17:51:34,712 - INFO - ✅ Successfully generated 1 templates for USA on attempt 1
+2025-09-26 17:51:34,712 - INFO - 🔍 CONCURRENT EXPLORE: Generated template, starting simulation...
+2025-09-26 17:51:34,712 - INFO - 🔍 EXPLORING new template: zscore(multiply(ts_zscore(rp_css_revenue,60),ts_zs...
+2025-09-26 17:51:34,712 - INFO - 🔍 CONCURRENT EXPLORE: Calling _simulate_template_concurrent...
+2025-09-26 17:51:34,712 - INFO - 🎮 CONCURRENT SIMULATION: Starting simulation for region USA
+2025-09-26 17:51:34,712 - INFO - 🎮 CONCURRENT SIMULATION: Using neutralization INDUSTRY
+2025-09-26 17:51:34,712 - INFO - 🎮 CONCURRENT SIMULATION: Submitting simulation to API...
+2025-09-26 17:51:35,315 - INFO - 
+🔄 === ITERATION 88 ===
+2025-09-26 17:51:35,315 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:51:35,315 - INFO - 📊 Completed: 3, Successful: 0, Failed: 3
+2025-09-26 17:51:35,315 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:51:35,315 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:51:35,315 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:51:35,315 - INFO -   - explore_1758880120539: 174.8s (slow, running, EXPLORE)
+2025-09-26 17:51:35,316 - INFO -   - explore_1758880251114: 44.2s (healthy, running, EXPLORE)
+2025-09-26 17:51:35,324 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:51:36,259 - INFO - 🎮 CONCURRENT SIMULATION: API response status: 201
+2025-09-26 17:51:36,259 - INFO - 🎮 CONCURRENT SIMULATION: Got progress URL: https://api.worldquantbrain.com/simulations/d5Dbj7x14yhbVg8b2TMH9k
+2025-09-26 17:51:36,260 - INFO - 🎮 CONCURRENT SIMULATION: Starting to monitor simulation progress...
+2025-09-26 17:51:36,260 - INFO - 🎮 MONITORING: Starting to monitor simulation progress (max 3600s)
+2025-09-26 17:51:36,260 - INFO - 🎮 MONITORING: Check #1 (elapsed: 0.0s)
+2025-09-26 17:51:37,324 - INFO - 
+🔄 === ITERATION 89 ===
+2025-09-26 17:51:37,324 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:51:37,324 - INFO - 📊 Completed: 3, Successful: 0, Failed: 3
+2025-09-26 17:51:37,324 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:51:37,324 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:51:37,324 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:51:37,324 - INFO -   - explore_1758880120539: 176.8s (slow, running, EXPLORE)
+2025-09-26 17:51:37,324 - INFO -   - explore_1758880251114: 46.2s (healthy, running, EXPLORE)
+2025-09-26 17:51:37,333 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:51:38,290 - INFO - 🎮 MONITORING: Status check response: 200
+2025-09-26 17:51:38,290 - INFO - 🎮 MONITORING: Simulation status: ERROR
+2025-09-26 17:51:38,291 - INFO - 📚 Recorded failure for USA: zscore(multiply(ts_zscore(rp_css_revenue,60),ts_zs... - Attempted to use unknown variable "rp_css_revenue"
+2025-09-26 17:51:38,291 - INFO - 🎮 CONCURRENT SIMULATION: Monitoring completed, result: True
+2025-09-26 17:51:38,291 - INFO - 🔍 CONCURRENT EXPLORE: Simulation completed, result: True
+2025-09-26 17:51:39,333 - INFO - 
+🔄 === ITERATION 90 ===
+2025-09-26 17:51:39,333 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:51:39,333 - INFO - 📊 Completed: 3, Successful: 0, Failed: 3
+2025-09-26 17:51:39,333 - INFO - ❌ CONCURRENT simulation FAILED: zscore(multiply(ts_zscore(rp_css_revenue,60),ts_zs... - Attempted to use unknown variable "rp_css_revenue"
+2025-09-26 17:51:39,334 - INFO - 📊 HEALTH: 1 futures active, 1 completed this cycle
+2025-09-26 17:51:39,334 - INFO - ⚠️ HEALTH: 1 futures slow (1-3min), 0 healthy (<1min)
+2025-09-26 17:51:39,334 - INFO - 📊 ALL FUTURES STATUS: 1 futures active
+2025-09-26 17:51:39,334 - INFO -   - explore_1758880120539: 178.8s (slow, running, EXPLORE)
+2025-09-26 17:51:39,334 - INFO - 🎯 Filling 1 available slots with CONCURRENT tasks...
+2025-09-26 17:51:39,334 - INFO - 🎯 EXPLOIT mode: Looking for successful templates...
+2025-09-26 17:51:39,334 - INFO - 📊 Found 249 successful templates out of 249 total results
+2025-09-26 17:51:39,334 - INFO - 🏆 Best successful template: Sharpe=1.340, Region=USA
+2025-09-26 17:51:39,334 - WARNING - 🎯 EXPLOIT: No elite templates found, falling back to EXPLORE mode
+2025-09-26 17:51:39,334 - INFO - 📊 Available templates: 249
+2025-09-26 17:51:39,334 - INFO -    Template 1: Sharpe=-0.700, Fitness=-0.100, Margin=-0.000
+2025-09-26 17:51:39,334 - INFO -    Template 2: Sharpe=0.740, Fitness=0.300, Margin=0.000
+2025-09-26 17:51:39,335 - INFO -    Template 3: Sharpe=-0.240, Fitness=-0.040, Margin=-0.000
+2025-09-26 17:51:39,335 - INFO - 🔄 FALLBACK: Switching to EXPLORE mode due to no elite templates
+2025-09-26 17:51:39,335 - INFO - 🚀 Started CONCURRENT EXPLORE task: explore_1758880299335
+2025-09-26 17:51:39,335 - INFO - 🔍 CONCURRENT EXPLORE: Starting exploration task
+2025-09-26 17:51:39,335 - INFO - 🔍 CONCURRENT EXPLORE: Selecting region...
+2025-09-26 17:51:39,335 - INFO - Selected delay 0 for USA (multipliers: 0=1.8, 1=1.2, prob_0=0.60)
+2025-09-26 17:51:39,335 - INFO - 🔍 CONCURRENT EXPLORE: Selected region USA
+2025-09-26 17:51:39,335 - INFO - 🔍 CONCURRENT EXPLORE: Selecting delay...
+2025-09-26 17:51:39,335 - INFO - Selected delay 0 for USA (multipliers: 0=1.8, 1=1.2, prob_0=0.60)
+2025-09-26 17:51:39,335 - INFO - 🔍 CONCURRENT EXPLORE: Selected delay 0
+2025-09-26 17:51:39,335 - INFO - 🔍 CONCURRENT EXPLORE: Generating templates for USA...
+2025-09-26 17:51:39,335 - INFO - 🔄 Template generation attempt 1/5 for USA
+2025-09-26 17:51:39,335 - INFO - Generating 1 templates for region: USA
+2025-09-26 17:51:39,335 - INFO - Selected delay 1 for USA (multipliers: 0=1.8, 1=1.2, prob_0=0.60)
+2025-09-26 17:51:39,335 - INFO - Loading cached data fields for USA delay=1
+2025-09-26 17:51:39,337 - INFO - Loaded 274 cached fields for USA delay=1
+2025-09-26 17:51:39,337 - INFO - Available fields for USA (delay=1): 274 fields
+2025-09-26 17:51:39,337 - INFO - Sample fields: ['fscore_growth', 'fscore_momentum', 'fscore_profitability', 'fscore_quality', 'fscore_surface']
+2025-09-26 17:51:39,337 - INFO - LIMITED operators: Selected 3 operators (max: 3) for template generation
+2025-09-26 17:51:39,337 - INFO - Using 274 fields for template generation
+2025-09-26 17:51:39,337 - INFO - Selected model for Qianwen API: qwen-plus
+2025-09-26 17:51:39,337 - INFO - Qianwen API call attempt 1/3
+2025-09-26 17:51:39,348 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:51:41,348 - INFO - 
+🔄 === ITERATION 91 ===
+2025-09-26 17:51:41,349 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:51:41,349 - INFO - 📊 Completed: 4, Successful: 0, Failed: 4
+2025-09-26 17:51:41,349 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:51:41,349 - WARNING - 🚨 HEALTH ALERT: 1 futures stuck (>3min), 0 slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:51:41,349 - WARNING - 🚨 CRITICAL: 1 futures are stuck! Consider restarting if this persists.
+2025-09-26 17:51:41,349 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:51:41,349 - INFO -   - explore_1758880120539: 180.8s (stuck, running, EXPLORE)
+2025-09-26 17:51:41,349 - INFO -   - explore_1758880299335: 2.0s (healthy, running, EXPLORE)
+2025-09-26 17:51:41,349 - INFO - 🔧 EXECUTOR HEALTH: 2 active threads
+2025-09-26 17:51:41,349 - INFO - 🔧 EXECUTOR QUEUE: 0 tasks in queue
+2025-09-26 17:51:41,358 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:51:41,434 - INFO - Qianwen API call successful
+2025-09-26 17:51:41,435 - WARNING - Invalid template rejected: group_backfill(ts_zscore(add(rp_css_earnings, rp_c... - Unknown field: sector
+2025-09-26 17:51:41,435 - INFO - Generated 0 valid templates for region USA
+2025-09-26 17:51:41,436 - WARNING - ❌ Template generation failed for USA on attempt 1
+2025-09-26 17:51:41,436 - INFO - 📚 Recorded failure for USA: Template generation failed... - Attempt 1 - No valid templates generated
+2025-09-26 17:51:41,436 - INFO - 📚 Recorded failure for learning. Retrying in 2 seconds...
+2025-09-26 17:51:43,358 - INFO - 
+🔄 === ITERATION 92 ===
+2025-09-26 17:51:43,358 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:51:43,358 - INFO - 📊 Completed: 4, Successful: 0, Failed: 4
+2025-09-26 17:51:43,358 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:51:43,358 - WARNING - 🚨 HEALTH ALERT: 1 futures stuck (>3min), 0 slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:51:43,358 - WARNING - 🚨 CRITICAL: 1 futures are stuck! Consider restarting if this persists.
+2025-09-26 17:51:43,358 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:51:43,358 - INFO -   - explore_1758880120539: 182.8s (stuck, running, EXPLORE)
+2025-09-26 17:51:43,359 - INFO -   - explore_1758880299335: 4.0s (healthy, running, EXPLORE)
+2025-09-26 17:51:43,359 - INFO - 🔧 EXECUTOR HEALTH: 2 active threads
+2025-09-26 17:51:43,359 - INFO - 🔧 EXECUTOR QUEUE: 0 tasks in queue
+2025-09-26 17:51:43,368 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:51:43,436 - INFO - 🔄 Template generation attempt 2/5 for USA
+2025-09-26 17:51:43,438 - INFO - Generating 1 templates for region: USA
+2025-09-26 17:51:43,438 - INFO - Selected delay 1 for USA (multipliers: 0=1.8, 1=1.2, prob_0=0.60)
+2025-09-26 17:51:43,438 - INFO - Loading cached data fields for USA delay=1
+2025-09-26 17:51:43,439 - INFO - Loaded 274 cached fields for USA delay=1
+2025-09-26 17:51:43,439 - INFO - Available fields for USA (delay=1): 274 fields
+2025-09-26 17:51:43,439 - INFO - Sample fields: ['fscore_growth', 'fscore_momentum', 'fscore_profitability', 'fscore_quality', 'fscore_surface']
+2025-09-26 17:51:43,439 - INFO - UNLIMITED operators: Using ALL 65 operators for template generation
+2025-09-26 17:51:43,440 - INFO - Using 274 fields for template generation
+2025-09-26 17:51:43,440 - INFO - Selected model for Qianwen API: qwen-plus
+2025-09-26 17:51:43,440 - INFO - Qianwen API call attempt 1/3
+2025-09-26 17:51:45,368 - INFO - 
+🔄 === ITERATION 93 ===
+2025-09-26 17:51:45,368 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:51:45,368 - INFO - 📊 Completed: 4, Successful: 0, Failed: 4
+2025-09-26 17:51:45,368 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:51:45,368 - WARNING - 🚨 HEALTH ALERT: 1 futures stuck (>3min), 0 slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:51:45,368 - WARNING - 🚨 CRITICAL: 1 futures are stuck! Consider restarting if this persists.
+2025-09-26 17:51:45,368 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:51:45,368 - INFO -   - explore_1758880120539: 184.8s (stuck, running, EXPLORE)
+2025-09-26 17:51:45,368 - INFO -   - explore_1758880299335: 6.0s (healthy, running, EXPLORE)
+2025-09-26 17:51:45,369 - INFO - 🔧 EXECUTOR HEALTH: 2 active threads
+2025-09-26 17:51:45,369 - INFO - 🔧 EXECUTOR QUEUE: 0 tasks in queue
+2025-09-26 17:51:45,377 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:51:47,377 - INFO - 
+🔄 === ITERATION 94 ===
+2025-09-26 17:51:47,377 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:51:47,377 - INFO - 📊 Completed: 4, Successful: 0, Failed: 4
+2025-09-26 17:51:47,377 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:51:47,377 - WARNING - 🚨 HEALTH ALERT: 1 futures stuck (>3min), 0 slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:51:47,377 - WARNING - 🚨 CRITICAL: 1 futures are stuck! Consider restarting if this persists.
+2025-09-26 17:51:47,377 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:51:47,377 - INFO -   - explore_1758880120539: 186.8s (stuck, running, EXPLORE)
+2025-09-26 17:51:47,377 - INFO -   - explore_1758880299335: 8.0s (healthy, running, EXPLORE)
+2025-09-26 17:51:47,377 - INFO - 🔧 EXECUTOR HEALTH: 2 active threads
+2025-09-26 17:51:47,378 - INFO - 🔧 EXECUTOR QUEUE: 0 tasks in queue
+2025-09-26 17:51:47,386 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:51:48,027 - INFO - Qianwen API call successful
+2025-09-26 17:51:48,028 - INFO - Valid template: normalize(multiply(ts_zscore(add(rp_ess_earnings,r... (fields: ['rp_css_earnings', 'rp_ess_earnings', 'cash', 'cashflow', 'cashflow_op', 'enterprise_value', 'news_max_dn_ret', 'news_max_up_ret'])
+2025-09-26 17:51:48,028 - INFO - Generated 1 valid templates for region USA
+2025-09-26 17:51:48,029 - INFO - ✅ Successfully generated 1 templates for USA on attempt 2
+2025-09-26 17:51:48,029 - INFO - 🔍 CONCURRENT EXPLORE: Generated template, starting simulation...
+2025-09-26 17:51:48,029 - INFO - 🔍 EXPLORING new template: normalize(multiply(ts_zscore(add(rp_ess_earnings,r...
+2025-09-26 17:51:48,029 - INFO - 🔍 CONCURRENT EXPLORE: Calling _simulate_template_concurrent...
+2025-09-26 17:51:48,029 - INFO - 🎮 CONCURRENT SIMULATION: Starting simulation for region USA
+2025-09-26 17:51:48,029 - INFO - 🎮 CONCURRENT SIMULATION: Using neutralization INDUSTRY
+2025-09-26 17:51:48,029 - INFO - 🎮 CONCURRENT SIMULATION: Submitting simulation to API...
+2025-09-26 17:51:48,916 - INFO - 🎮 CONCURRENT SIMULATION: API response status: 201
+2025-09-26 17:51:48,916 - INFO - 🎮 CONCURRENT SIMULATION: Got progress URL: https://api.worldquantbrain.com/simulations/2lCBGv2o4yi9Ui6rDmO95I
+2025-09-26 17:51:48,916 - INFO - 🎮 CONCURRENT SIMULATION: Starting to monitor simulation progress...
+2025-09-26 17:51:48,916 - INFO - 🎮 MONITORING: Starting to monitor simulation progress (max 3600s)
+2025-09-26 17:51:48,916 - INFO - 🎮 MONITORING: Check #1 (elapsed: 0.0s)
+2025-09-26 17:51:49,386 - INFO - 
+🔄 === ITERATION 95 ===
+2025-09-26 17:51:49,386 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:51:49,386 - INFO - 📊 Completed: 4, Successful: 0, Failed: 4
+2025-09-26 17:51:49,387 - INFO - 📊 HEALTH: 2 futures active, 0 completed this cycle
+2025-09-26 17:51:49,387 - WARNING - 🚨 HEALTH ALERT: 1 futures stuck (>3min), 0 slow (1-3min), 1 healthy (<1min)
+2025-09-26 17:51:49,387 - WARNING - 🚨 CRITICAL: 1 futures are stuck! Consider restarting if this persists.
+2025-09-26 17:51:49,387 - INFO - 📊 ALL FUTURES STATUS: 2 futures active
+2025-09-26 17:51:49,387 - INFO -   - explore_1758880120539: 188.8s (stuck, running, EXPLORE)
+2025-09-26 17:51:49,387 - INFO -   - explore_1758880299335: 10.1s (healthy, running, EXPLORE)
+2025-09-26 17:51:49,387 - INFO - 🔧 EXECUTOR HEALTH: 2 active threads
+2025-09-26 17:51:49,387 - INFO - 🔧 EXECUTOR QUEUE: 0 tasks in queue
+2025-09-26 17:51:49,397 - INFO - Progress saved to template_progress_v2.json
+2025-09-26 17:51:49,884 - INFO - 🎮 MONITORING: Status check response: 200
+2025-09-26 17:51:49,884 - INFO - 🎮 MONITORING: Simulation status: ERROR
+2025-09-26 17:51:49,884 - INFO - 📚 Recorded failure for USA: normalize(multiply(ts_zscore(add(rp_ess_earnings,r... - Attempted to use unknown variable "rp_ess_earnings"
+2025-09-26 17:51:49,884 - INFO - 🎮 CONCURRENT SIMULATION: Monitoring completed, result: True
+2025-09-26 17:51:49,884 - INFO - 🔍 CONCURRENT EXPLORE: Simulation completed, result: True
+2025-09-26 17:51:51,397 - INFO - 
+🔄 === ITERATION 96 ===
+2025-09-26 17:51:51,397 - INFO - 📊 Active futures: 2/2
+2025-09-26 17:51:51,397 - INFO - 📊 Completed: 4, Successful: 0, Failed: 4
+2025-09-26 17:51:51,397 - INFO - ❌ CONCURRENT simulation FAILED: normalize(multiply(ts_zscore(add(rp_ess_earnings,r... - Attempted to use unknown variable "rp_ess_earnings"
+2025-09-26 17:51:51,397 - INFO - 📊 HEALTH: 1 futures active, 1 completed this cycle
+2025-09-26 17:51:51,397 - WARNING - 🚨 HEALTH ALERT: 1 futures stuck (>3min), 0 slow (1-3min), 0 healthy (<1min)
+2025-09-26 17:51:51,397 - WARNING - 🚨 CRITICAL: 1 futures are stuck! Consider restarting if this persists.
+2025-09-26 17:51:51,397 - INFO - 📊 ALL FUTURES STATUS: 1 futures active
+2025-09-26 17:51:51,398 - INFO -   - explore_1758880120539: 190.9s (stuck, running, EXPLORE)
+2025-09-26 17:51:51,398 - INFO - 🔧 EXECUTOR HEALTH: 2 active threads
+2025-09-26 17:51:51,398 - INFO - 🔧 EXECUTOR QUEUE: 0 tasks in queue
+2025-09-26 17:51:51,398 - INFO - 🎯 Filling 1 available slots with CONCURRENT tasks...
+2025-09-26 17:51:51,398 - INFO - 🚀 Started CONCURRENT EXPLORE task: explore_1758880311398
+2025-09-26 17:51:51,398 - INFO - 🔍 CONCURRENT EXPLORE: Starting exploration task
+2025-09-26 17:51:51,398 - INFO - 🔍 CONCURRENT EXPLORE: Selecting region...
+2025-09-26 17:51:51,398 - INFO - Selected delay 0 for USA (multipliers: 0=1.8, 1=1.2, prob_0=0.60)
+2025-09-26 17:51:51,399 - INFO - 🔍 CONCURRENT EXPLORE: Selected region USA
+2025-09-26 17:51:51,399 - INFO - 🔍 CONCURRENT EXPLORE: Selecting delay...
+2025-09-26 17:51:51,399 - INFO - Selected delay 1 for USA (multipliers: 0=1.8, 1=1.2, prob_0=0.60)
+2025-09-26 17:51:51,399 - INFO - 🔍 CONCURRENT EXPLORE: Selected delay 1
+2025-09-26 17:51:51,399 - INFO - 🔍 CONCURRENT EXPLORE: Generating templates for USA...
+2025-09-26 17:51:51,399 - INFO - 🔄 Template generation attempt 1/5 for USA
+2025-09-26 17:51:51,399 - INFO - Generating 1 templates for region: USA
+2025-09-26 17:51:51,399 - INFO - Selected delay 0 for USA (multipliers: 0=1.8, 1=1.2, prob_0=0.60)
+2025-09-26 17:51:51,399 - INFO - Loading cached data fields for USA delay=0
+2025-09-26 17:51:51,400 - INFO - Loaded 214 cached fields for USA delay=0
+2025-09-26 17:51:51,401 - INFO - Available fields for USA (delay=0): 214 fields
+2025-09-26 17:51:51,401 - INFO - Sample fields: ['anl4_adxqf_down', 'anl4_adxqf_high', 'anl4_adxqf_low', 'anl4_adxqf_mean', 'anl4_adxqf_median']
+2025-09-26 17:51:51,402 - INFO - LIMITED operators: Selected 4 operators (max: 4) for template generation
+2025-09-26 17:51:51,402 - INFO - Using 214 fields for template generation
+2025-09-26 17:51:51,404 - INFO - Selected model for Hunyuan API: hunyuan-t1-latest
+2025-09-26 17:51:51,405 - INFO - Hunyuan API call attempt 1/3
+2025-09-26 17:51:51,410 - INFO - Progress saved to template_progress_v2.json
