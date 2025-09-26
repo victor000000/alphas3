@@ -6,3 +6,20 @@ __pycache__/
 *.pyw
 *.pem
 *.log
+
+# VSCode
+.vscode/
+
+# Credentials and environment
+.env
+credential.txt
+credentials.json
+credential.json
+
+# Batch and cache files
+*batch_*.html
+data_fields_cache_*.json
+*v2.json
+
+# Virtual environments
+**/venv
