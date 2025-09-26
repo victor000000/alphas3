@@ -1230,11 +1230,9 @@ Generate 1 high-performance template in JSON format:"""
 
 
         api_callers = [
-            # self.call_doubao_api,
-            self.call_qianwen_api,
+            self.call_doubao_api,
             self.call_qianwen_api,
             self.call_hunyuan_api,
-            self.call_hunyuan_api
         ]
         api_caller = random.choice(api_callers)
 
@@ -1994,9 +1992,7 @@ Generate {num_templates} templates:"""
 
 
         api_callers = [
-            # self.call_doubao_api,
-            self.call_qianwen_api,
-            self.call_hunyuan_api,
+            self.call_doubao_api,
             self.call_qianwen_api,
             self.call_hunyuan_api,
         ]

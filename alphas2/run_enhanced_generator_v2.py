@@ -101,7 +101,7 @@ def main():
         generator = EnhancedTemplateGeneratorV2(
             'credential.txt', 
             deepseek_key, 
-            max_concurrent=2,
+            max_concurrent=1,
             progress_file=progress_file,
             results_file=results_file
         )
