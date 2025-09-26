@@ -1,12 +1,12 @@
 {
-  "timestamp": 1758875313.999403,
+  "timestamp": 1758875507.473268,
   "total_regions": 1,
   "completed_regions": 0,
   "total_templates": 0,
   "completed_templates": 0,
   "total_simulations": 0,
-  "completed_simulations": 236,
-  "successful_simulations": 236,
+  "completed_simulations": 237,
+  "successful_simulations": 237,
   "failed_simulations": 0,
   "current_region": "",
   "current_phase": "",
@@ -3178,6 +3178,17 @@
           "divide",
           "less",
           "ts_std_dev"
+        ],
+        "fields_used": []
+      },
+      {
+        "region": "USA",
+        "template": "not_equal(ts_decay_linear(fn_comp_non_opt_grants_q, 60, dense=false), fn_comp_non_opt_grants_a)",
+        "operators_used": [
+          "not",
+          "equal",
+          "not_equal",
+          "ts_decay_linear"
         ],
         "fields_used": []
       }
@@ -6724,6 +6735,21 @@
         "success": true,
         "error_message": "",
         "timestamp": 1758875271.108469
+      },
+      {
+        "template": "not_equal(ts_decay_linear(fn_comp_non_opt_grants_q, 60, dense=false), fn_comp_non_opt_grants_a)",
+        "region": "USA",
+        "sharpe": 0.46,
+        "fitness": 0.6,
+        "turnover": 0.03,
+        "returns": 0.2108,
+        "drawdown": 0.5943,
+        "margin": 0.014049,
+        "longCount": 80,
+        "shortCount": 4,
+        "success": true,
+        "error_message": "",
+        "timestamp": 1758875351.436734
       }
     ]
   }
