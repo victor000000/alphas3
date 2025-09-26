@@ -1,5 +1,5 @@
 {
-  "timestamp": 1758877105.24271,
+  "timestamp": 1758879260.3965235,
   "total_regions": 1,
   "completed_regions": 0,
   "total_templates": 0,
@@ -22,7 +22,7 @@
       "ASI",
       "CHN"
     ],
-    "templates_per_region": 50,
+    "templates_per_region": 20,
     "version": "2.0"
   },
   "templates": {
