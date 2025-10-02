@@ -1194,34 +1194,8 @@ CRITICAL REQUIREMENTS:
 10. Focus on HIGH MARGIN potential - use complex combinations
 
 VALID EXAMPLES:
-days_from_last_change(eps)
-normalize(ts_av_diff(group_mean(ts_count_nans(news_max_up_ret, 20), debt, bucket(rank(enterprise_value), buckets="2,5,6,7,10")), 60))
-ts_product(inverse(fn_comp_non_opt_grants_a), 5)
-trade_when(
-    rank(ts_mean(implied_volatility_call_120 - implied_volatility_put_120, 90)) > 0.7,
-    0.5 * (1 - abs(ts_corr(
-        rank(ts_delta(call_breakeven_10 / close, 5)),
-        -ts_regression(
-            rank(ts_regression(close, ts_delay(close, 1), 60)),
-            beta_last_360_days_spy,
-            60
-        ),
-        60
-    ))) * rank(ts_delta(call_breakeven_10 / close, 5))
-    + 0.5 * rank(ts_mean(ts_delta(call_breakeven_10 / close, 5), 3)),
-    rank(ts_mean(implied_volatility_call_120 - implied_volatility_put_120, 90)) < 0.6
-)
-d1 = ts_av_diff(ts_delta(eps, 252), 756);
-d2 = ts_av_diff(sales_growth, 756);
--ts_corr(d1, d2, 30)
--group_neutralize(zscore(ts_corr(rp_css_price, cashflow_op, 60)), INDUSTRY)
-d1 = ts_av_diff(ts_delta(eps, 252), 756);
-d2 = ts_av_diff(sales_growth, 756);
--ts_corr(d1, d2, 30)
-group_rank(fnd6_ciother/cap, subindustry)
--scale(signed_power(group_neutralize(ts_corr(ts_delay(fn_business_combination_assets_aquired_goodwill_q,30),add(ts_zscore(ts_sum(cashflow_op,60),120),ts_delta(unsystematic_risk_last_30_days,30)),60),SECTOR),2),scale=2,longscale=2,shortscale=1)
--greater(days_from_last_change(rp_css_earnings), 30)
-sign(normalize(divide(fn_allocated_share_based_compensation_expense_q, cashflow_op)))
+a = (returns < 0) ? ts_std_dev(returns, 20) : close
+(rank(ts_arg_max(signed_power(a, 2.), 5)) - 0.5)
 
 IMPORTANT: Return your response in JSON format only. Use this exact format:
 {{"templates": ["template1"]}}
@@ -1958,35 +1932,8 @@ CRITICAL REQUIREMENTS:
 {requirement_15}
 
 VALID EXAMPLES:
-days_from_last_change(eps)
-normalize(ts_av_diff(group_mean(ts_count_nans(news_max_up_ret, 20), debt, bucket(rank(enterprise_value), buckets="2,5,6,7,10")), 60))
-ts_product(inverse(fn_comp_non_opt_grants_a), 5)
-trade_when(
-    rank(ts_mean(implied_volatility_call_120 - implied_volatility_put_120, 90)) > 0.7,
-    0.5 * (1 - abs(ts_corr(
-        rank(ts_delta(call_breakeven_10 / close, 5)),
-        -ts_regression(
-            rank(ts_regression(close, ts_delay(close, 1), 60)),
-            beta_last_360_days_spy,
-            60
-        ),
-        60
-    ))) * rank(ts_delta(call_breakeven_10 / close, 5))
-    + 0.5 * rank(ts_mean(ts_delta(call_breakeven_10 / close, 5), 3)),
-    rank(ts_mean(implied_volatility_call_120 - implied_volatility_put_120, 90)) < 0.6
-)
-d1 = ts_av_diff(ts_delta(eps, 252), 756);
-d2 = ts_av_diff(sales_growth, 756);
--ts_corr(d1, d2, 30)
--group_neutralize(zscore(ts_corr(rp_css_price, cashflow_op, 60)), INDUSTRY)
-d1 = ts_av_diff(ts_delta(eps, 252), 756);
-d2 = ts_av_diff(sales_growth, 756);
--ts_corr(d1, d2, 30)
-group_rank(fnd6_ciother/cap, subindustry)
--scale(signed_power(group_neutralize(ts_corr(ts_delay(fn_business_combination_assets_aquired_goodwill_q,30),add(ts_zscore(ts_sum(cashflow_op,60),120),ts_delta(unsystematic_risk_last_30_days,30)),60),SECTOR),2),scale=2,longscale=2,shortscale=1)
--greater(days_from_last_change(rp_css_earnings), 30)
-sign(normalize(divide(fn_allocated_share_based_compensation_expense_q, cashflow_op)))
-group_rank(ts_rank(fnd6_newqv1300_dcomq, 252), densify(pv13_h_f1_sector))
+a = (returns < 0) ? ts_std_dev(returns, 20) : close
+(rank(ts_arg_max(signed_power(a, 2.), 5)) - 0.5)
 
 Generate {num_templates} templates:"""
 
@@ -2301,7 +2248,7 @@ Generate {num_templates} templates:"""
             # Wait between pools to avoid overwhelming the API
             if pool_idx + 1 < len(template_pools):
                 logger.info(f"Waiting 30 seconds before next pool...")
-                time.sleep(30)
+                time.sleep(31)
         
         logger.info(f"Multi-simulation complete: {len(all_results)} results")
         return all_results
@@ -2548,7 +2495,7 @@ Generate {num_templates} templates:"""
                 self.save_progress()
                 
                 # Wait a bit before next iteration
-                time.sleep(2)
+                time.sleep(29)
                     
         except KeyboardInterrupt:
             logger.info("\n🛑 Received interrupt signal. Stopping gracefully...")
