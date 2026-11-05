@@ -1,8 +1,21 @@
+"""Reusable provider methods; credentials are supplied by environment variables."""
+import logging
+import os
+import random
+import time
+from typing import Optional, Tuple
 
-    def call_doubao_api(self, prompt: str, max_retries: int = 3) -> Optional[str]:
+import requests
+
+logger = logging.getLogger(__name__)
+
+
+class ProviderAPIMixin:
+
+    def call_doubao_api(self, prompt: str, max_retries: int = 3) -> Tuple[str, Optional[str]]:
         """Call Doubao API to generate templates"""
         headers = {
-            'Authorization': 'Bearer REDACTED_CREDENTIAL',
+            'Authorization': f'Bearer {os.environ["DOUBAO_API_KEY"]}',
             'Content-Type': 'application/json'   
         }
         model_str_list = [
@@ -58,7 +71,7 @@
                 return model_str, None
         return model_str, None
 
-    def call_hunyuan_api(self, prompt: str, max_retries: int = 3) -> Optional[str]:
+    def call_hunyuan_api(self, prompt: str, max_retries: int = 3) -> Tuple[str, Optional[str]]:
         # -*- coding: utf-8 -*-
         """Call Hunyuan API to generate templates"""
         import os
@@ -75,7 +88,7 @@
             # 生产环境建议使用更安全的密钥管理方案，如密钥管理系统(KMS)、容器密钥注入等
             # 请参见：https://cloud.tencent.com/document/product/1278/85305
             # 密钥可前往官网控制台 https://console.cloud.tencent.com/cam/capi 进行获取
-            cred = credential.Credential("REDACTED_CREDENTIAL", "REDACTED_CREDENTIAL")
+            cred = credential.Credential(os.environ["TENCENTCLOUD_SECRET_ID"], os.environ["TENCENTCLOUD_SECRET_KEY"])
             # 使用临时密钥示例
             # cred = credential.Credential("SecretId", "SecretKey", "Token")
             # 实例化一个http选项，可选的，没有特殊需求可以跳过
@@ -152,10 +165,10 @@
                 return model_str, None
         return model_str, None
 
-    def call_qianwen_api(self, prompt: str, max_retries: int = 3) -> Optional[str]:
+    def call_qianwen_api(self, prompt: str, max_retries: int = 3) -> Tuple[str, Optional[str]]:
         """Call Qianwen API to generate templates"""
         headers = {
-            'Authorization': 'Bearer REDACTED_CREDENTIAL',
+            'Authorization': f'Bearer {os.environ["DASHSCOPE_API_KEY"]}',
             'Content-Type': 'application/json'
         }
         model_str_list = [
@@ -210,17 +223,11 @@
         return model_str, None
 
 
-###############################################################
-
-
-
-        api_callers = [
+    def call_random_api(self, prompt: str, max_retries: int = 3) -> Tuple[str, Optional[str]]:
+        """Call one configured provider without running calls during import."""
+        api_caller = random.choice([
             self.call_doubao_api,
             self.call_qianwen_api,
-            self.call_qianwen_api,
-            self.call_hunyuan_api
-        ]
-        api_caller = random.choice(api_callers)
-
-        # Call xxx API
-        ai_model_str, response = api_caller(prompt)
+            self.call_hunyuan_api,
+        ])
+        return api_caller(prompt, max_retries=max_retries)

@@ -24,3 +24,11 @@ data_fields_cache_*.json
 
 # Virtual environments
 venv/
+# Credentials and generated Python bytecode
+**/credential.txt
+**/brain_credentials.txt
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]

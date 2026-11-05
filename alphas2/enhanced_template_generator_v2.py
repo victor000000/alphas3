@@ -1513,7 +1513,7 @@ Generate 1 high-performance template in JSON format:"""
     def call_doubao_api(self, prompt: str, max_retries: int = 3) -> Optional[str]:
         """Call Doubao API to generate templates"""
         headers = {
-            'Authorization': 'Bearer REDACTED_CREDENTIAL',
+            'Authorization': f'Bearer {os.environ["DOUBAO_API_KEY"]}',
             'Content-Type': 'application/json'   
         }
         model_str_list = [
@@ -1586,7 +1586,7 @@ Generate 1 high-performance template in JSON format:"""
             # 生产环境建议使用更安全的密钥管理方案，如密钥管理系统(KMS)、容器密钥注入等
             # 请参见：https://cloud.tencent.com/document/product/1278/85305
             # 密钥可前往官网控制台 https://console.cloud.tencent.com/cam/capi 进行获取
-            cred = credential.Credential("REDACTED_CREDENTIAL", "REDACTED_CREDENTIAL")
+            cred = credential.Credential(os.environ["TENCENTCLOUD_SECRET_ID"], os.environ["TENCENTCLOUD_SECRET_KEY"])
             # 使用临时密钥示例
             # cred = credential.Credential("SecretId", "SecretKey", "Token")
             # 实例化一个http选项，可选的，没有特殊需求可以跳过
@@ -1666,7 +1666,7 @@ Generate 1 high-performance template in JSON format:"""
     def call_qianwen_api(self, prompt: str, max_retries: int = 3) -> Optional[str]:
         """Call Qianwen API to generate templates"""
         headers = {
-            'Authorization': 'Bearer REDACTED_CREDENTIAL',
+            'Authorization': f'Bearer {os.environ["DASHSCOPE_API_KEY"]}',
             'Content-Type': 'application/json'
         }
         model_str_list = [
