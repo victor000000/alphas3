@@ -1,5 +1,6 @@
 # Consultant Pyramid Crasher
 
+> Inherited strategy reference retained for provenance. Performance, concurrency and setup claims below are historical upstream descriptions, not verified behavior of this owned checkout. Current entry-point contracts and execution risks are in [the project guide](../README.md) and [design](../DESIGN.md).
 A specialized system for cracking financial pyramids using 3 concurrent simulation strategies, designed to work alongside the consultant-templates-api.
 
 ## Overview
