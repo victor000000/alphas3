@@ -45,6 +45,39 @@ class ProviderTests(unittest.TestCase):
             self.assertEqual(self.client.call_random_api("prompt", max_retries=2), ("test-model", "result"))
         selected.assert_called_once_with("prompt", max_retries=2)
 
+    def test_hunyuan_sends_the_model_it_reports(self):
+        import json
+
+        request = Mock()
+        response = types.SimpleNamespace(Choices=[types.SimpleNamespace(Message=types.SimpleNamespace(Content="result"))])
+        sdk_client = Mock()
+        sdk_client.ChatCompletions.return_value = response
+        names = [
+            "tencentcloud", "tencentcloud.common", "tencentcloud.common.profile",
+            "tencentcloud.common.profile.client_profile", "tencentcloud.common.profile.http_profile",
+            "tencentcloud.common.exception", "tencentcloud.common.exception.tencent_cloud_sdk_exception",
+            "tencentcloud.hunyuan", "tencentcloud.hunyuan.v20230901",
+        ]
+        modules = {name: types.ModuleType(name) for name in names}
+        modules["tencentcloud.common"].credential = types.SimpleNamespace(Credential=Mock())
+        modules["tencentcloud.common.profile.client_profile"].ClientProfile = Mock
+        modules["tencentcloud.common.profile.http_profile"].HttpProfile = Mock
+        modules["tencentcloud.common.exception.tencent_cloud_sdk_exception"].TencentCloudSDKException = RuntimeError
+        modules["tencentcloud.hunyuan.v20230901"].hunyuan_client = types.SimpleNamespace(
+            HunyuanClient=Mock(return_value=sdk_client)
+        )
+        modules["tencentcloud.hunyuan.v20230901"].models = types.SimpleNamespace(
+            ChatCompletionsRequest=Mock(return_value=request)
+        )
+        with patch.dict(sys.modules, modules), patch.dict(os.environ, {
+            "TENCENTCLOUD_SECRET_ID": "test-only", "TENCENTCLOUD_SECRET_KEY": "test-only"
+        }), patch.object(self.module.random, "choice", return_value="hunyuan-turbos-latest"):
+            model, content = self.client.call_hunyuan_api("prompt", max_retries=1)
+        sent = json.loads(request.from_json_string.call_args.args[0])
+        self.assertEqual(sent["Model"], model)
+        self.assertEqual(model, "hunyuan-turbos-latest")
+        self.assertEqual(content, "result")
+
 
 if __name__ == "__main__":
     unittest.main()

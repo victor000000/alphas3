@@ -111,7 +111,7 @@ class ProviderAPIMixin:
             model_str = random.choice(model_str_list)
             logger.info(f"Selected model for Hunyuan API: {model_str}")
             params = {
-                "Model": "hunyuan-t1-latest",
+                "Model": model_str,
                 "Messages": [
                     {
                         "Role": "system",
